@@ -1,0 +1,19 @@
+title: "Orgelverein am Braunschweiger Dom e.V."
+baseUrl: "https://www.orgel-braunschweigerdom.de/"
+languageCode: "de"
+
+metaDataFormat: "yaml"
+defaultContentLanguage: "de"
+enableRobotsTXT: true
+disableKinds:
+  - taxonomies
+  - taxonomyTerm
+#  - home
+
+sitemap:
+  changeFreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
+params:
+  env: production

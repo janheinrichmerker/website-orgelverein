@@ -1,0 +1,5 @@
+{{ $glightbox := resources.Get "node_modules/glightbox/dist/js/glightbox.js" }}
+{{ $linksInNewTab := resources.Get "js/links-in-new-tab.js" }}
+{{ $loadLightbox := resources.Get "js/load-lightbox.js" }}
+{{ $js := slice $glightbox $linksInNewTab $loadLightbox | resources.Concat "js/main.js" | resources.Minify | resources.Fingerprint "sha512" }}
+<script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>

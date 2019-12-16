@@ -1,0 +1,9 @@
+{{ if $.Site.Data.donors }}
+<ul>
+    {{ range $.Site.Data.donors }}
+    <li>
+        {{ if .name }}{{ .name }}{{ else }}Anonym{{ end }}{{ if .value }}: <strong>{{ .value }} €</strong>{{ end }}
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

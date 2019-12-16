@@ -1,0 +1,13 @@
+{
+  "name": "orgelverein-website",
+  "version": "1.0.0",
+  "description": "Orgelverein am Braunschweiger Dom e.V.",
+  "main": "index.js",
+  "author": "Jan Heinrich Reimer <heinrich@heinrichreimer.com>",
+  "license": "UNLICENSE",
+  "private": true,
+  "dependencies": {
+    "glightbox": "^2.0.4",
+    "normalize-scss": "^7.0.1"
+  }
+}

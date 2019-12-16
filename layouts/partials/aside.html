@@ -1,0 +1,37 @@
+<aside>
+    <section>
+        <figure>
+            <a href='{{ relref . "/entwurf.md" }}' title="Entwurf">
+                <img src="/design/south-organ-detail-600px.png" alt="Entwurf der Zwillingsorgeln">
+            </a>
+            <figcaption>Entwurf der Zwillingsorgeln</figcaption>
+        </figure>
+    </section>
+    <nav>
+        {{ if .Site.Menus.side }}
+        <ul>
+            {{ range .Site.Menus.side }}
+            <li>
+                <a href="{{ .URL }}" title="{{ .Name }}">
+                    {{ .Name }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </nav>
+    {{ if $.Site.Data.organs }}
+    <section id="progress">
+        <h3>Spendenbarometer</h3>
+        <small>Stand: 09.12.2019</small>
+        {{ range $.Site.Data.organs }}
+        {{ partial "organ-pipe.html" . }}
+        {{ end }}
+    </section>
+    {{ end }}
+    <!--
+    <section>
+        <h3>Schirmherren</h3>
+    </section>
+    -->
+</aside>

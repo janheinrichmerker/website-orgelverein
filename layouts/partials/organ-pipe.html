@@ -1,0 +1,45 @@
+<figure>
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="36"
+         height="426"
+         viewBox="0 0 36 426"
+         preserveAspectRatio="none"
+         fill="none">
+        <path class="background"
+              d="M36 339V8C36 3.58173 27.9411 0 18 0C8.05887 0 0 3.58173 0 8V339L11 423C11 424.657 14.134 426 18 426C21.866 426 25 424.657 25 423L36 339Z"
+              fill="#ccc"/>
+        <clipPath id="{{ anchorize .name }}-mask">
+            <rect y="{{ math.Round (mul 426 (div (sub .max .value) (float .max))) }}"
+                  width="36"
+                  height="426"
+                  fill="black"/>
+        </clipPath>
+        <path clip-path="url(#{{ anchorize .name }}-mask)" class="background-active"
+              d="M36 339V8C36 3.58173 27.9411 0 18 0C8.05887 0 0 3.58173 0 8V339L11 423C11 424.657 14.134 426 18 426C21.866 426 25 424.657 25 423L36 339Z"
+              fill="#c00"/>
+        <path d="M36 8V339L25 423C25 424.657 21.866 426 18 426C14.134 426 11 424.657 11 423L0 339V8C0 12.4183 8.05887 16 18 16C27.9411 16 36 12.4183 36 8Z"
+              fill="url(#paint0_linear)" fill-opacity="0.4"/>
+        <path d="M33 301V339C33 343.418 26.2843 347 18 347C9.71573 347 3 343.418 3 339V301C3 288.297 9.71573 278 18 278C26.2843 278 33 288.297 33 301Z"
+              fill="url(#paint1_linear)" fill-opacity="0.5"/>
+        <rect x="3" y="324" width="30" height="8" fill="black" fill-opacity="0.7"/>
+        <defs>
+            <linearGradient id="paint0_linear" x1="5.36442e-07" y1="217" x2="36" y2="217" gradientUnits="userSpaceOnUse">
+                <stop/>
+                <stop offset="0.244792" stop-opacity="0.3"/>
+                <stop offset="0.364583" stop-opacity="0.05"/>
+                <stop offset="0.484375" stop-opacity="0"/>
+                <stop offset="0.604167" stop-opacity="0.05"/>
+                <stop offset="0.723958" stop-opacity="0.3"/>
+                <stop offset="1"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear" x1="18" y1="278" x2="18" y2="347" gradientUnits="userSpaceOnUse">
+                <stop/>
+                <stop offset="0.338542" stop-opacity="0"/>
+                <stop offset="0.765625" stop-opacity="0"/>
+                <stop offset="1"/>
+            </linearGradient>
+        </defs>
+    </svg>
+    <figcaption>{{ .name }}</figcaption>
+    <figcaption class="overlay">{{ lang.NumFmt 0 .value "- , ." }} / {{ lang.NumFmt 0 .max "- , ." }} €</figcaption>
+</figure>

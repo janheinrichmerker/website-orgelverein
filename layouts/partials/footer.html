@@ -1,0 +1,38 @@
+<footer role="contentinfo">
+    <section>
+        <h2>Kontakt</h2>
+        <address>
+            Orgelbauverein am Braunschweiger Dom e.V. <br/>
+            Geschäftsstelle <br/>
+            Domplatz 5 <br/>
+            38100 Braunschweig
+        </address>
+        <p>
+            Tel: <a href="tel:+4915155898542">0151 55 89 85 42</a><br/>
+            E-Mail: <a href="mailto:info@orgel-braunschweigerdom.de">info@orgel-braunschweigerdom.de</a><br/>
+        </p>
+    </section>
+    <section>
+        <h3>Spendenkonten</h3>
+        <p>
+            <em>Volksbank eG Braunschweig Wolfsburg</em><br>
+            IBAN: DE12 2699 1066 8769 1500 00
+        </p>
+        <p>
+            <em>Braunschweigische Landessparkasse (NORD/LB)</em><br>
+            IBAN: DE75 2505 0000 0201 3989 71
+        </p>
+        {{ if .Site.Menus.footer }}
+        <ul>
+            {{ range .Site.Menus.footer }}
+            <li>
+                <a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </section>
+    <section id="copyright">
+        © {{ now.Format "2006" }} <a href="/">{{ .Site.Title }}</a>&ensp; Alle Rechte vorbehalten.
+    </section>
+</footer>

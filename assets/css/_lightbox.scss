@@ -1,0 +1,688 @@
+$color: #fff !default;
+$color-inverse: $background;
+$background: #000 !default;
+$overlay: fade_out($background, 0.25) !default;
+
+$z-index-top-1: 999999;
+$z-index-top-2: 999998;
+$z-index-top-3: 999997;
+
+$loader-size: 1vmin;
+$loader-color: $color;
+
+$button-size: 7.5vmin;
+$button-margin: $button-size / 2;
+
+$viewport-width-medium: 800px;
+$viewport-height-small: 450px;
+
+.glightbox-container {
+    width: 100%;
+    height: 100vmin;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: $z-index-top-1 !important;
+    overflow: hidden;
+    touch-action: none;
+    -webkit-text-size-adjust: 100%;
+    -webkit-backface-visibility: hidden;
+    outline: none;
+
+    &.inactive {
+        display: none;
+    }
+
+    .gloader {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: $loader-size;
+        width: $loader-size;
+        animation: lightbox-loader .8s infinite linear;
+        border: ($loader-size / 12) solid $loader-color;
+        border-right-color: transparent;
+        border-radius: 50%;
+        z-index: $z-index-top-3;
+
+        @keyframes lightbox-loader {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .goverlay {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: $overlay;
+        will-change: opacity;
+
+        @at-root {
+            .glightbox-container.glightbox-mobile .goverlay {
+                background: $overlay;
+            }
+        }
+
+        @media (min-width: $viewport-width-medium) {
+            background: fade_out($overlay, .10);
+        }
+
+        @media (max-height: $viewport-height-small) {
+            background: $overlay;
+        }
+    }
+
+    .gcontainer {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: $z-index-top-3;
+        overflow: hidden;
+
+        .gslider {
+            transition: transform .4s ease;
+            height: 100%;
+            left: 0;
+            top: 0;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .gbtn {
+            background-repeat: no-repeat;
+            z-index: $z-index-top-2;
+            cursor: pointer;
+            width: $button-size;
+            height: $button-size;
+            display: block;
+            background-position: 0 0;
+            border: none;
+            background-color: fade_out($color, 0.4);
+            border-radius: 0.25em;
+            transition: opacity 0.2s ease-in;
+
+            &:hover {
+                background-color: fade_out($color, 0.2);
+            }
+
+            &:focus:not(.focused):not(.disabled) {
+                outline: none;
+            }
+
+            &.disabled {
+                opacity: 0;
+                cursor: not-allowed;
+            }
+
+            svg {
+                display: block;
+                width: 100%;
+                height: 100%;
+
+                path {
+                    fill: $color-inverse;
+                    stroke: none;
+                }
+            }
+
+            @at-root {
+                .glightbox-container.glightbox-closing .gcontainer .gbtn {
+                    opacity: 0 !important;
+                }
+            }
+
+            &.gprev {
+                position: absolute;
+                top: -100%;
+                left: $button-margin;
+
+                @media (min-width: $viewport-width-medium) {
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
+            &.gnext {
+                position: absolute;
+                top: -100%;
+                right: $button-margin;
+
+                @media (min-width: $viewport-width-medium) {
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
+            &.gclose {
+                position: absolute;
+                top: $button-margin;
+                right: $button-margin;
+                padding: $button-size / 4;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+
+
+        .gslide {
+            width: 100%;
+            position: absolute;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+
+            &.current {
+                opacity: 1;
+                z-index: $z-index-top-2;
+                position: relative;
+            }
+
+            &.prev {
+                opacity: 1;
+                z-index: $z-index-top-3;
+            }
+        }
+
+        .gslide-inner-content {
+            width: 100%;
+        }
+
+        .ginner-container {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 100%;
+            margin: auto;
+            height: 100vh;
+
+            &.gvideo-container {
+                width: 100%;
+            }
+
+            @media (min-width: $viewport-width-medium) {
+                width: auto;
+                height: auto;
+                flex-direction: row;
+            }
+
+            &.desc-bottom,
+            &.desc-top {
+                flex-direction: column;
+            }
+
+            &.desc-left,
+            &.desc-right {
+                max-width: 100% !important;
+            }
+
+            &.desc-top {
+                @media (min-width: $viewport-width-medium) {
+                    .gslide-description {
+                        order: 0;
+                    }
+                    .gslide-image,
+                    .gslide-image img {
+                        order: 1;
+                    }
+                }
+            }
+
+            &.desc-left {
+                @media (min-width: $viewport-width-medium) {
+                    .gslide-description {
+                        order: 0;
+                    }
+                    .gslide-image {
+                        order: 1;
+                    }
+                }
+            }
+        }
+
+        .gslide {
+            iframe,
+            video {
+                outline: none !important;
+                border: none;
+                min-height: 165px;
+                -webkit-overflow-scrolling: touch;
+                overflow-scrolling: touch;
+                touch-action: auto;
+            }
+        }
+
+        .gslide-image {
+            align-items: center;
+
+            img {
+                max-height: 100vh;
+                display: block;
+                padding: 0;
+                float: none;
+                outline: none;
+                border: none;
+                user-select: none;
+                max-width: 100vw;
+                width: auto;
+                height: auto;
+                object-fit: cover;
+                touch-action: none;
+                margin: auto;
+                min-width: 200px;
+
+                @media (min-width: $viewport-width-medium) {
+                    max-height: 97vh;
+                    max-width: 100%;
+                }
+
+                .desc-top &,
+                .desc-bottom & {
+                    width: auto;
+                }
+
+                .desc-left &,
+                .desc-right & {
+                    width: auto;
+                    max-width: 100%;
+                }
+
+                &.zoomable {
+                    position: relative;
+
+                    @media (min-width: $viewport-width-medium) {
+                        cursor: zoom-in;
+
+                        .zoomed & {
+                            cursor: grab;
+                        }
+                    }
+                }
+
+                &.dragging {
+                    cursor: grabbing !important;
+                    transition: none;
+                }
+            }
+        }
+
+        .gslide-video {
+            position: relative;
+            max-width: 100vh;
+            width: 100% !important;
+
+            .gvideo-wrapper {
+                width: 100%;
+                /* max-width: 160vmin; */
+                margin: auto;
+            }
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 0, 0, 0.34);
+            }
+
+            &.playing::before {
+                display: none;
+            }
+
+            &.fullscreen {
+                max-width: 100% !important;
+                min-width: 100%;
+
+                video {
+                    max-width: 100% !important;
+                    width: 100% !important;
+                }
+            }
+        }
+
+        .gslide-inline {
+            background: $color;
+            text-align: left;
+            max-width: 100vh;
+            overflow: auto;
+
+            @media (min-width: $viewport-width-medium) {
+                max-height: 95vh;
+            }
+        }
+
+        .ginlined-content {
+            overflow: auto;
+            display: block !important;
+            opacity: 1;
+        }
+
+
+        .gslide-external {
+            display: flex;
+            width: 100%;
+            min-width: 100%;
+            background: $background;
+            padding: 0;
+            overflow: auto;
+            max-height: 62vh;
+
+            @media (min-width: $viewport-width-medium) {
+                max-height: 95vh;
+            }
+        }
+
+        .gslide-media {
+            display: flex;
+            width: auto;
+
+            .zoomed & {
+                //box-shadow: none !important;
+            }
+
+            .desc-top &,
+            .desc-bottom & {
+                margin: 0 auto;
+                flex-direction: column;
+            }
+        }
+
+        .gslide-description {
+            position: relative;
+
+            &.description-left,
+            &.description-right {
+                max-width: 100%;
+
+                @media (min-width: $viewport-width-medium) {
+                    max-width: 275px;
+                }
+            }
+
+            &.description-bottom,
+            &.description-top {
+                margin: 0 auto;
+                width: 100%;
+            }
+
+            p {
+                margin-bottom: 0.5em;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .zoomed & {
+                display: none;
+            }
+        }
+
+        .glightbox-mobile & {
+            /*
+             * Description for mobiles
+             * something like facebook does the description
+             * for the photos
+            */
+
+            .gslide-description {
+                height: auto !important;
+                width: 100%;
+                background: transparent;
+                position: absolute;
+                bottom: 0;
+                max-width: 100vw !important;
+                order: 2 !important;
+                max-height: 78vh;
+                overflow: auto !important;
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .75) 100%);
+                transition: opacity .3s linear;
+                padding: 1em 1em 2em;
+            }
+
+            .gslide-title {
+                color: $color;
+                font-size: 1em;
+            }
+
+            .gslide-desc {
+                color: fade_out($color, 0.2);
+
+                a {
+                    color: $color;
+                    font-weight: bold;
+                }
+
+                * {
+                    color: inherit;
+                }
+
+                .desc-more {
+                    color: $color;
+                    opacity: .4;
+                }
+            }
+        }
+
+        .gdesc-open {
+            .gslide-media {
+                transition: opacity .5s ease;
+                opacity: .4;
+            }
+
+            .gdesc-inner {
+                padding-bottom: 3em;
+            }
+        }
+
+        .gdesc-closed {
+            .gslide-media {
+                transition: opacity .5s ease;
+                opacity: 1;
+            }
+        }
+
+        .greset {
+            transition: all .3s ease;
+        }
+
+        .gabsolute {
+            position: absolute;
+        }
+
+        .grelative {
+            position: relative;
+        }
+
+        .glightbox-desc {
+            display: none !important;
+        }
+
+        .glightbox-open {
+            overflow: hidden;
+
+            @media (min-width: $viewport-width-medium) {
+                height: auto;
+            }
+        }
+
+        iframe.wait-autoplay {
+            opacity: 0;
+        }
+
+
+        .gslide-media {
+            @media (min-width: $viewport-width-medium) {
+                //box-shadow: 1px 2px 9px 0 rgba(0, 0, 0, 0.65);
+            }
+        }
+
+        .gslide-description {
+            background: $background;
+        }
+
+        .gdesc-inner {
+            padding: 1.5em;
+        }
+
+        .gslide-title {
+            font-size: 1em;
+            font-weight: normal;
+            color: $color;
+            margin-bottom: 1em;
+            line-height: 1.4em;
+        }
+
+        .gslide-desc {
+            font-size: 1em;
+            margin-bottom: 0;
+            line-height: 1.5em;
+        }
+
+        .gslide-video {
+            background: $background;
+        }
+    }
+}
+
+.gfadeIn {
+    animation: lightbox-fade-in .5s ease;
+
+    @keyframes lightbox-fade-in {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+.gfadeOut {
+    animation: lightbox-fade-out .5s ease;
+
+    @keyframes lightbox-fade-out {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+}
+
+.gslideOutLeft {
+    animation: lightbox-slide-out-left .3s ease;
+
+    @keyframes lightbox-slide-out-left {
+        from {
+            opacity: 1;
+            visibility: visible;
+            transform: translate3d(0, 0, 0);
+        }
+        to {
+            transform: translate3d(-60%, 0, 0);
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+}
+
+.gslideInLeft {
+    animation: lightbox-slide-in-left .3s ease;
+
+    @keyframes lightbox-slide-in-left {
+        from {
+            opacity: 0;
+            transform: translate3d(-60%, 0, 0);
+        }
+        to {
+            visibility: visible;
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+        }
+    }
+}
+
+.gslideOutRight {
+    animation: lightbox-slide-out-right .3s ease;
+
+    @keyframes lightbox-slide-out-right {
+        from {
+            opacity: 1;
+            visibility: visible;
+            transform: translate3d(0, 0, 0);
+        }
+        to {
+            transform: translate3d(60%, 0, 0);
+            opacity: 0;
+        }
+    }
+}
+
+.gslideInRight {
+    animation: lightbox-slide-in-right .3s ease;
+
+    @keyframes lightbox-slide-in-right {
+        from {
+            opacity: 0;
+            visibility: visible;
+            transform: translate3d(60%, 0, 0);
+        }
+        to {
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+        }
+    }
+}
+
+.gzoomIn {
+    animation: lightbox-zoom-in .5s ease;
+
+    @keyframes lightbox-zoom-in {
+        from {
+            opacity: 0;
+            transform: scale3d(.3, .3, .3);
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+.gzoomOut {
+    animation: lightbox-zoom-out .5s ease;
+
+    @keyframes lightbox-zoom-out {
+        from {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+            transform: scale3d(.3, .3, .3);
+        }
+        to {
+            opacity: 0;
+        }
+    }
+}
