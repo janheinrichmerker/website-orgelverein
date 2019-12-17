@@ -1,0 +1,5 @@
+<If "%{HTTPS} != 'on' || %{HTTP_HOST} != 'www.orgel-braunschweigerdom.de'">
+    Redirect / https://www.orgel-braunschweigerdom.de/
+</If>
+
+ErrorDocument 404 https://www.orgel-braunschweigerdom.de/404.html
