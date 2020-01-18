@@ -6,18 +6,19 @@ menu:
     weight: 4
 ---
 
-Eine solche für den Dom im höchsten Maße wünschenswerte Lösung hat jedoch ihren Preis: 
-Die Kosten der gesamten Orgelanlage belaufen sich auf ca. {{< organ/all/total-amount >}}.  
-Sind 480.000 € durch Spenden erreicht, 
-kann die erste Bauphase (ein Orgelflügel und der Spieltisch) beauftragt werden.
-Für diesen Bauabschnitt fehlen nur noch {{< organ/missing-amount "Südorgel" >}}.  
+Sehr geehrte Spenderinnen und Spender, es ist geschafft! 
+Dank ihrer großzügigen Unterstützung wurde von der 
+Braunschweigischen Landeskirche der erste Bauabschnitt der neuen Orgel 
+bei der Orgelbaufirma Späth in Auftrag gegeben! 
+Er besteht aus der Südorgel, dem Spieltisch und den Pedalpfeifen. 
+Sie wird ab 2022 gebaut und 2023 im Dom erklingen.
 
-Auch wenn der volle Klang den Dom erst mit Fertigstellung beider Orgelbestandteile erfüllen wird, 
-stellt auch ein einzelner Flügel bereits eine deutliche Verbesserung der bestehenden Situation dar.  
-Gelingt es, kurzfristig den Finanzierungsbetrag für die erste Teilorgel zu erreichen, 
-kann die erste Bauphase sehr zeitnah auf den Weg gebracht werden. 
+Wir sind überwältigt von Ihrer Bereitschaft, 
+die benötigte Summe in diesem außergewöhnlich kurzen Zeitraum zu spenden. 
+Im Namen aller Beteiligten rund um den Orgelbauverein bedanken wir uns 
+bei ihnen sehr herzlich. 
+So gehen wir hoch motiviert in die „zweite Runde“, 
+damit die beiden Zwillinge der Orgel in naher Zukunft gemeinsam erklingen können. 
+Für den zweiten Bauabschnitt werden noch {{< organ/missing-amount "Nordorgel" >}} benötigt.  
 
-Die neue Orgel soll nicht aus Kirchensteuern finanziert werden. 
-Der Braunschweiger Dom und die Gesellschaft zur Förderung kirchenmusikalischer Arbeit 
-am Braunschweiger Dom e.V. sammeln bereits seit einigen Jahren für das Projekt 
-und sind dankbar für Ihre bis heute eingegangenen Spenden.
+Auch der zweite Bauabschnitt soll nicht aus Kirchensteuern finanziert werden.
