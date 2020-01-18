@@ -1,5 +1,5 @@
 - name: Nordorgel
-  value: 0
+  value: 18000
   max: 370000
 - name: Südorgel
   value: 480000
