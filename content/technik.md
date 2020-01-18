@@ -7,12 +7,14 @@ menu:
 ---
 
 ## Die Spielanlage
+{{< raw-html >}}
 <figure>
     <a href="/design/console.png">
         <img src="/design/console-600px.png"
              alt="Spielanlage">
     </a>
 </figure>
+{{< /raw-html >}}
 
 Die Orgelanlage erhält 31 Register mit 2.260 klingenden Pfeifen, 
 verteilt auf zwei eigenständige, optisch gleiche Orgeln 
@@ -29,12 +31,14 @@ Folgende Register sind geplant: [Disposition](/documents/Disposition.pdf)
 
 ## Schweller
 
+{{< raw-html >}}
 <figure>
     <a href="/design/layout-sound.png">
         <img src="/design/layout-sound-600px.png" 
              alt="Schweller">
     </a>
 </figure>
+{{< /raw-html >}}
 
 Eine Besonderheit der Orgeln ist ihre universelle Einsatzfähigkeit im Raum. 
 Jede Orgel erhält Schwelltüren (Jalousien) zu drei Seiten, 
@@ -42,6 +46,7 @@ die jeweils den gewünschten Teil des Domes mit Klang füllen
 und die anderen Bereiche nicht ansprechen.
 
 ### Nordorgel
+{{< raw-html >}}
 <dl>
     <dt>Norden <span class="color-bullet" style="color: red;">(rot)</span></dt>
     <dd>nördliches Seitenschiff (Begleitung der Taufen am Imervardkreuz)</dd>
@@ -50,8 +55,10 @@ und die anderen Bereiche nicht ansprechen.
     <dt>Westen <span class="color-bullet" style="color: mediumvioletred;">(violett)</span></dt>
     <dd>Chorbegleitung</dd>
 </dl>
+{{< /raw-html >}}
 
 ### Südorgel
+{{< raw-html >}}
 <dl>
     <dt>Norden <span class="color-bullet" style="color: mediumvioletred;">(violett)</span></dt>
     <dd>Chorbegleitung</dd>
@@ -60,3 +67,4 @@ und die anderen Bereiche nicht ansprechen.
     <dt>Osten <span class="color-bullet" style="color: orange;">(orange)</span></dt>
     <dd>Veranstaltungen im Hohen Chor</dd>
 </dl>
+{{< /raw-html >}}

@@ -62,6 +62,7 @@ Verwenden Sie hierzu unser [Spendenformular][formular].
 
 ## Innenpfeifen, das Herz der Orgel
 
+{{< raw-html >}}
 <table id="inner-pipes">
     <thead>
         <tr>
@@ -117,12 +118,14 @@ Verwenden Sie hierzu unser [Spendenformular][formular].
         </tr>
     </tbody>
 </table>
+{{< /raw-html >}}
 
 ## Frontpfeifen, das Angesicht der Orgel
 
 Großspender der Frontpfeifen erhalten auf Wunsch eine öffentliche namentliche Würdigung, 
 die kommenden Generationen im Dom erhalten bleibt.
 
+{{< raw-html >}}
 <dl id="frontal-pipes">
     <dt>Preisgruppe 1 <span class="color-bullet" style="color: #00dd00;">(grün)</span></dt>
     <dd>2.500 €</dd>
@@ -133,7 +136,9 @@ die kommenden Generationen im Dom erhalten bleibt.
     <dt>Preisgruppe 4 <span class="color-bullet" style="color: #ff0000;">(rot)</span></dt>
     <dd>10.000 €</dd>
 </dl>
+{{< /raw-html >}}
 
+{{< raw-html >}}
 <figure>
     <a href="/funding/pipes-front.png">
         <img src="/funding/pipes-front-600px.png" alt="Orgelprospekt">
@@ -142,7 +147,9 @@ die kommenden Generationen im Dom erhalten bleibt.
         Orgelprospekt (Frontansicht)
     </figcaption>
 </figure>
+{{< /raw-html >}}
 
+{{< raw-html >}}
 <figure>
     <a href="/funding/pipes-top.png">
         <img src="/funding/pipes-top-600px.png" alt="Orgelprospekt">
@@ -151,5 +158,6 @@ die kommenden Generationen im Dom erhalten bleibt.
         Orgelprospekt (Draufsicht)
     </figcaption>
 </figure>
+{{< /raw-html >}}
 
 [formular]: {{< relref "/formular.md" >}}
