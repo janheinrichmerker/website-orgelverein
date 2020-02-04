@@ -26,7 +26,7 @@ Die Pfeifen werden durch modernste Magnet- und Ventiltechnik angesprochen,
 die auch in der Industrie langlebige Anwendung findet. 
 Gespielt werden die Orgeln von einem frei fahrbaren Spieltisch aus auf der Ebene vor dem Leuchter. 
 
-Folgende Register sind geplant: [Disposition](/documents/Disposition.pdf)
+<!-- Folgende Register sind geplant: [Disposition](/documents/Disposition.pdf) -->
 
 
 ## Schweller
