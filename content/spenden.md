@@ -119,9 +119,9 @@ Verwenden Sie hierzu unser [Spendenformular][formular].
 </table>
 {{< /raw-html >}}
 
-## Frontpfeifen, das Angesicht der Orgel
+## Prospektpfeifen, das Angesicht der Orgel
 
-Großspender der Frontpfeifen erhalten auf Wunsch eine öffentliche namentliche Würdigung, 
+Großspender der Prospektpfeifen erhalten auf Wunsch eine öffentliche namentliche Würdigung, 
 die kommenden Generationen im Dom erhalten bleibt.
 
 {{< raw-html >}}
