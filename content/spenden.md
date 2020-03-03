@@ -3,12 +3,11 @@ title: Spender werden
 description: Unterstützen Sie die Chororgel mit einer Patenschaft.
 menu:
   main:
-    weight: 5
+    weight: 6
     name: Spenden
   side:
     weight: 2
     name: Patenschaften
-    # name: Patenschaften / Spenden
   footer:
     weight: 2
     name: Patenschaften
