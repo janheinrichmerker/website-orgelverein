@@ -5,10 +5,11 @@ languageCode: "de"
 metaDataFormat: "yaml"
 defaultContentLanguage: "de"
 enableRobotsTXT: true
+paginate: 5
+paginatePath: "" # Append page number to list path directly.
 disableKinds:
   - taxonomies
   - taxonomyTerm
-#  - home
 
 sitemap:
   changeFreq: "monthly"
