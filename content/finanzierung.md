@@ -9,7 +9,7 @@ menu:
 Sehr geehrte Spenderinnen und Spender, es ist geschafft! 
 Dank ihrer großzügigen Unterstützung wurde von der 
 Braunschweigischen Landeskirche der erste Bauabschnitt der neuen Orgel 
-bei der Orgelbaufirma Späth in Auftrag gegeben! 
+bei der [Orgelbaufirma Späth](https://www.freiburgerorgelbau.de/) in Auftrag gegeben! 
 Er besteht aus der Südorgel, dem Spieltisch und den Pedalpfeifen. 
 Sie wird ab 2022 gebaut und 2023 im Dom erklingen.
 

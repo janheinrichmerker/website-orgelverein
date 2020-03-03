@@ -6,6 +6,9 @@ menu:
     weight: 3
 ---
 
+Der erste Bauabschnitt der neuen Orgel wurde 
+bei der [Orgelbaufirma Späth](https://www.freiburgerorgelbau.de/) in Auftrag gegeben.
+
 ## Die Spielanlage
 {{< raw-html >}}
 <figure>
