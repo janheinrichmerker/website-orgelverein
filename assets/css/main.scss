@@ -12,6 +12,12 @@ $color-accent-active-inverse: lighten($color-accent-inverse, 15%);
 $divider: fade_out($color, 0.80);
 $image-border-color: fade_out($background-inverse, 0.6);
 $image-border-color-opaque: lighten($background-inverse, 0.5);
+$notification-background: rgba(yellow, 0.3);
+$notification-border-color: mix(yellow, $image-border-color, 0.4);
+$timeline-width: 4em;
+$timeline-line-width: 3px;
+$timeline-line-color: mix($color-accent, $background, 60%);
+$timeline-bullet-size: 1em;
 $font-family-serif: "Merriweather", "Georgia", "Times New Roman", serif;
 $font-family-sans: "Merriweather Sans", "Arial", sans-serif;
 
@@ -428,6 +434,15 @@ body {
                 }
             }
 
+            em.notification {
+                display: block;
+                background: $notification-background;
+                margin: 1em auto;
+                border: 1px solid $notification-border-color;
+                border-radius: 0.25em;
+                padding: 0.5em;
+            }
+
             a {
                 color: $color-accent;
 
@@ -462,6 +477,167 @@ body {
 
                 img:hover {
                     border-color: $color-accent-active;
+                }
+            }
+
+            > nav.sections {
+                font-style: italic;
+
+                > ol {
+                    display: inline;
+                    list-style: none;
+                    padding: 0;
+
+                    > li {
+                        display: inline;
+
+                        &:before {
+                            content: " / ";
+                            font-size: 75%;
+                        }
+
+                        &:first-of-type:before {
+                            content: "";
+                        }
+                    }
+                }
+            }
+
+            > nav.subsections {
+                font-style: italic;
+
+                > ul {
+                    display: inline;
+                    list-style: none;
+                    padding: 0;
+
+                    > li {
+                        display: inline;
+
+                        &:after {
+                            content: ", ";
+                        }
+
+                        &:last-of-type:after {
+                            content: "";
+                        }
+                    }
+                }
+            }
+
+            > section.timeline {
+
+                > ol {
+                    list-style: none;
+                    padding: 0;
+
+                    > li {
+                        position: relative;
+                        margin: 0;
+                        padding-bottom: 1em;
+                        padding-left: $timeline-width;
+
+                        &:before {
+                            content: "";
+                            background-color: $timeline-line-color;
+                            position: absolute;
+                            bottom: 0;
+                            top: 0;
+                            left: calc(#{$timeline-width / 2} - #{$timeline-line-width / 2});
+                            width: $timeline-line-width;
+                        }
+
+                        &:first-of-type:before {
+                            top: $timeline-width / 2;
+                        }
+
+                        &:last-of-type:before {
+                            bottom: auto;
+                            height: $timeline-width / 2;
+                        }
+
+                        &:last-of-type {
+                            padding-bottom: 0;
+                        }
+
+                        &:first-of-type:last-of-type:before {
+                            display: none;
+                        }
+
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            border-radius: 50%;
+                            left: calc(#{$timeline-width / 2} - #{$timeline-bullet-size / 2});
+                            top: calc(#{$timeline-width / 2} - #{$timeline-bullet-size / 2});
+                            width: $timeline-bullet-size;
+                            height: $timeline-bullet-size;
+                            background: $timeline-line-color;
+                        }
+
+                        > time {
+                            font-style: italic;
+                        }
+
+                        > h3 {
+                            margin: 0;
+
+                            > a {
+                                text-decoration: none;
+                                color: $color;
+                            }
+                        }
+
+                        > p {
+                            margin: 0;
+                        }
+                    }
+                }
+
+                &.has-prev > ol > li {
+                    &:first-of-type:before {
+                        top: 0;
+                        border-top-left-radius: $timeline-line-width;
+                        border-top-right-radius: $timeline-line-width;
+                    }
+
+                    &:first-of-type:last-of-type:before {
+                        display: initial;
+                    }
+                }
+
+                &.has-next > ol > li {
+                    &:last-of-type:before {
+                        bottom: 0;
+                        height: auto;
+                        border-bottom-left-radius: $timeline-line-width;
+                        border-bottom-right-radius: $timeline-line-width;
+                    }
+
+                    &:first-of-type:last-of-type:before {
+                        display: initial;
+                    }
+                }
+            }
+
+            > nav.pagination {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                > div {
+                    &.page-number {
+                        justify-self: center;
+                        text-align: center;
+                    }
+
+                    &.next > a {
+                        margin-right: 0.5em;
+                    }
+
+                    &.prev > a {
+                        margin-left: 0.5em;
+                    }
                 }
             }
         }
@@ -565,6 +741,7 @@ body {
                             color: $color;
 
                             &.overlay {
+                                font-size: 75%;
                                 min-width: 250px;
                                 width: max-content;
                                 position: absolute;

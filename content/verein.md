@@ -3,7 +3,7 @@ title: Orgelbauverein
 description: Der Orgelverein am Braunschweiger Dom e.V.
 menu:
   main:
-    weight: 6
+    weight: 7
     name: Verein
 ---
 

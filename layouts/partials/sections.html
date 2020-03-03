@@ -1,0 +1,17 @@
+{{ if .Section }}
+<nav class="sections">
+    In:
+    {{ if and .Parent (not .Parent.IsHome) }}
+    <ol>
+        {{ template "breadcrumbs" .Parent }}
+    </ol>
+    {{ end }}
+</nav>
+{{ end }}
+
+{{ define "breadcrumbs" }}
+{{ if and .Parent (not .Parent.IsHome) }}
+{{ template "breadcrumbs" .Parent  }}
+{{ end }}
+<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ end }}

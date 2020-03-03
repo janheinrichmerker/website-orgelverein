@@ -1,0 +1,23 @@
+<section class="timeline{{ if .HasPrev }} has-prev{{ end }}{{ if .HasNext }} has-next{{ end }}">
+    <ol>
+        {{ range .Pages }}
+        <li>
+            <time>{{ .Date.Format "02.01.2006"}}</time>
+            <h3>
+                <a href="{{ .RelPermalink }}">
+                    {{ .LinkTitle }}
+                </a>
+            </h3>
+            <p>
+                {{- .Summary | plainify -}}
+                {{- if .Truncated -}}
+                <br>
+                <a href="{{ .RelPermalink }}" title="Ganzer Eintrag">
+                    Weiter lesen
+                </a>
+                {{- end -}}
+            </p>
+        </li>
+        {{ end }}
+    </ol>
+</section>

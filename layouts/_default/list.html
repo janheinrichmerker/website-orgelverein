@@ -7,11 +7,15 @@
         </h1>
     </header>
 
-    {{ partial "sections" . }}
+    {{ partial "subsections.html" . }}
 
     <section>
         {{- .Content -}}
     </section>
+
+    {{- $paginate := .Paginator -}}
+    {{ partial "timeline.html" $paginate }}
+    {{ partial "pagination.html" $paginate }}
 
 </article>
 {{ end }}

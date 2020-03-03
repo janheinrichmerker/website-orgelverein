@@ -6,6 +6,9 @@ menu:
     weight: 3
 ---
 
+Der erste Bauabschnitt der neuen Orgel wurde 
+bei der [Orgelbaufirma Späth](https://www.freiburgerorgelbau.de/) in Auftrag gegeben.
+
 ## Die Spielanlage
 {{< raw-html >}}
 <figure>
@@ -26,7 +29,7 @@ Die Pfeifen werden durch modernste Magnet- und Ventiltechnik angesprochen,
 die auch in der Industrie langlebige Anwendung findet. 
 Gespielt werden die Orgeln von einem frei fahrbaren Spieltisch aus auf der Ebene vor dem Leuchter. 
 
-Folgende Register sind geplant: [Disposition](/documents/Disposition.pdf)
+<!-- Folgende Register sind geplant: [Disposition](/documents/Disposition.pdf) -->
 
 
 ## Schweller
