@@ -11,19 +11,17 @@
             Orgelbauverein&nbsp;am Braunschweiger&nbsp;Dom&nbsp;e.V.
         </a>
     </h1>
+    {{ if .Site.Menus.main }}
     <nav role="navigation">
-        {{ if .Site.Menus.main }}
         <ul>
-            {{ $currentNode := . }}
-            {{- $firstUrlElement := print "/" (index (split .Permalink "/") 1) -}}
             {{ range .Site.Menus.main }}
-            <li class='{{if or ($.IsMenuCurrent "main" .) (eq ($firstUrlElement|lower) (.URL|lower)) }}active{{end}}'>
+            <li class='{{if ($.IsMenuCurrent "main" .) }}active{{end}}'>
                 <a href="{{ .URL }}" title="{{ .Name }}">
                     {{ .Name }}
                 </a>
             </li>
             {{ end }}
         </ul>
-        {{ end }}
     </nav>
+    {{ end }}
 </header>
