@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article>
+
+    <header>
+        <h1>
+            {{- .Title -}}
+        </h1>
+    </header>
+
+    {{ partial "subsections.html" . }}
+
+    <section>
+        {{- .Content -}}
+    </section>
+
+    {{- $paginate := .Paginator -}}
+    {{ partial "timeline.html" $paginate }}
+    {{ partial "pagination.html" $paginate }}
+
+</article>
+{{ end }}

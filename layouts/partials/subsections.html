@@ -1,0 +1,10 @@
+{{ if .Sections }}
+<nav class="subsections">
+    Kategorien:
+    <ul>
+        {{ range .Sections }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+</nav>
+{{ end }}

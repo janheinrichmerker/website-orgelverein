@@ -1,0 +1,27 @@
+{{ if gt .Paginator.TotalPages 1 }}
+<nav class="pagination">
+    <div class="next">
+        {{ if .HasNext }}
+        <a href="{{ .Last.URL }}">
+             ↞
+        </a>
+        <a href="{{ .Next.URL }}">
+            ← Ältere Einträge
+        </a>
+        {{ end }}
+    </div>
+    <div class="page-number">
+        Seite {{ .PageNumber }} von {{ .TotalPages }}
+    </div>
+    <div class="prev">
+        {{ if .HasPrev }}
+        <a href="{{ .Prev.URL }}">
+            Neuere Einträge →
+        </a>
+        <a href="{{ .First.URL }}">
+            ↠
+        </a>
+        {{ end }}
+    </div>
+</nav>
+{{ end }}
