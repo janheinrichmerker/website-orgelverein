@@ -741,6 +741,7 @@ body {
                             color: $color;
 
                             &.overlay {
+                                font-size: 75%;
                                 min-width: 250px;
                                 width: max-content;
                                 position: absolute;
