@@ -469,6 +469,29 @@ body {
                 }
             }
 
+            > nav.sections {
+                font-style: italic;
+
+                > ol {
+                    display: inline;
+                    list-style: none;
+                    padding: 0;
+
+                    > li {
+                        display: inline;
+
+                        &:before {
+                            content: " / ";
+                            font-size: 75%;
+                        }
+
+                        &:first-of-type:before {
+                            content: "";
+                        }
+                    }
+                }
+            }
+
             > nav.subsections {
                 font-style: italic;
 
