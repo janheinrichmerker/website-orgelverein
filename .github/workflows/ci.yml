@@ -36,4 +36,4 @@ jobs:
           name: "Link check report"
           path: link-checker/out.md
       - name: "✅ Require link check pass"
-          run: exit ${{ steps.linkCheck.outputs.exit_code }}
+        run: exit ${{ steps.linkCheck.outputs.exit_code }}
