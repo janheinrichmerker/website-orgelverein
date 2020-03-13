@@ -33,7 +33,9 @@ jobs:
             touch deploy_key
             chmod 600 deploy_key
             echo ${{ secrets.DEPLOY_KEY }} > deploy_key
-            echo "put -r public ${{ secrets.DEPLOY_TARGET_PATH }}" | sftp -i deploy_key Worgel@orgel-braunschweigerdom.de
+            sftp -i deploy_key Worgel@orgel-braunschweigerdom.de <<EOF
+            put -r public ${{ secrets.DEPLOY_TARGET_PATH }}
+            EOF
       - name: "🔄 Check Lighthouse"
         id: lighthouseCheck
         uses: foo-software/lighthouse-check-action@master
