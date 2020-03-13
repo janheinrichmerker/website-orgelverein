@@ -38,7 +38,7 @@ jobs:
           strip_components: 1
           rm: true
           target: ${{ secrets.DEPLOY_TARGET_PATH }}
-      - name: "✅ Lighthouse check"
+      - name: "🔄 Check Lighthouse"
         id: lighthouseCheck
         uses: foo-software/lighthouse-check-action@master
         with:
@@ -47,7 +47,7 @@ jobs:
           outputDirectory: /tmp/artifacts
           urls: 'https://www.orgel-braunschweigerdom.de/'
           sha: ${{ github.sha }}
-      - name: "✅ Lighthouse check requirements"
+      - name: "✅ Require Lighthouse check pass"
         uses: foo-software/lighthouse-check-status-action@master
         with:
           lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
@@ -55,7 +55,7 @@ jobs:
           minAccessibilityScore: "90"
           minBestPracticesScore: "80"
           minSeoScore: "85"
-      - name: "✅ Upload Lighthouse check"
+      - name: "📤 Upload Lighthouse check"
         uses: actions/upload-artifact@master
         with:
           name: "Lighthouse reports"

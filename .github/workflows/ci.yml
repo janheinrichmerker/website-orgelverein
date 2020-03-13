@@ -25,7 +25,7 @@ jobs:
           yarn install
       - name: "🏗 Build"
         run: hugo
-      - name: "✅ Check links"
+      - name: "🔄 Check links"
         uses: peter-evans/link-checker@v1
         with:
           args: -v -d public/ -r public/
