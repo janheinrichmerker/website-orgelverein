@@ -1,4 +1,5 @@
-[![GitHub Actions](https://github.com/heinrichreimer/website-orgelverein/workflows/CI/badge.svg)](https://github.com/heinrichreimer/website-orgelverein/actions)
+[![CI](https://img.shields.io/github/workflow/status/orgelverein/website/CI?style=flat-square)](https://github.com/orgelverein/website/actions?query=workflow%3ACI)
+[![Issues](https://img.shields.io/github/issues/orgelverein/website?style=flat-square)](https://github.com/orgelverein/website/issues)
 
 # Orgelverein am Braunschweiger Dom e.V. website
 

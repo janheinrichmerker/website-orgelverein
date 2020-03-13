@@ -27,8 +27,14 @@ jobs:
         run: hugo
       - name: "🔄 Check links"
         id: linkCheck
-        uses: peter-evans/link-checker@v1
+        uses: peter-evans/link-checker@v1.2.1
         with:
           args: -v -d public/ -r public/
+      - name: "📤 Upload link check report"
+        uses: actions/upload-artifact@v1.0.0
+        if: steps.linkCheck.outputs.exit_code != 0
+        with:
+          name: "Link check report"
+          path: ./link-checker/out.md
       - name: "✅ Require link check pass"
         run: exit ${{ steps.linkCheck.outputs.exit_code }}
