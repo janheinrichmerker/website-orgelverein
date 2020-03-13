@@ -34,6 +34,6 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: "Link check report"
-          path: link-checker/out.md
+          path: ./link-checker/out.md
       - name: "✅ Require link check pass"
         run: exit ${{ steps.linkCheck.outputs.exit_code }}
