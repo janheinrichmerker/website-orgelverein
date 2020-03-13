@@ -31,9 +31,9 @@ jobs:
         with:
           args: -v -d public/ -r public/
       - name: "📤 Upload link check report"
-          uses: actions/upload-artifact@master
-          with:
-            name: "Link check report"
-            path: link-checker/out.md
+        uses: actions/upload-artifact@master
+        with:
+          name: "Link check report"
+          path: link-checker/out.md
       - name: "✅ Require link check pass"
           run: exit ${{ steps.linkCheck.outputs.exit_code }}
