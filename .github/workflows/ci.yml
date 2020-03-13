@@ -29,3 +29,5 @@ jobs:
         uses: peter-evans/link-checker@v1
         with:
           args: -v -d public/ -r public/
+      - name: "✅ Require link check pass"
+        run: exit ${{ steps.lc.outputs.exit_code }}
