@@ -28,16 +28,12 @@ jobs:
           yarn install
       - name: "🏗 Build"
         run: hugo
-      - name: "🚀 Deploy via SCP"
-        uses: appleboy/scp-action@v0.0.5
-        with:
-          username: Worgel
-          host: orgel-braunschweigerdom.de
-          key: ${{ secrets.DEPLOY_KEY }}
-          source: public
-          strip_components: 1
-          rm: true
-          target: ${{ secrets.DEPLOY_TARGET_PATH }}
+      - name: "🚀 Deploy via SFTP"
+          run: |
+            touch deploy_key
+            chmod 600 deploy_key
+            echo ${{ secrets.DEPLOY_KEY }} > deploy_key
+            echo "put -r public ${{ secrets.DEPLOY_TARGET_PATH }}" | sftp -i deploy_key Worgel@orgel-braunschweigerdom.de
       - name: "🔄 Check Lighthouse"
         id: lighthouseCheck
         uses: foo-software/lighthouse-check-action@master
