@@ -1,13 +1,13 @@
 <header>
     <figure class="logo">
-        <a href="{{ .Site.BaseURL }}">
+        <a href='{{ relref . "/_index.md" }}'>
             {{ block "logo" . }}
             {{ partial "images/logo.svg" . }}
             {{ end }}
         </a>
     </figure>
     <h1>
-        <a href="{{ .Site.BaseURL }}">
+        <a href='{{ relref . "/_index.md" }}'>
             Orgelbauverein&nbsp;am Braunschweiger&nbsp;Dom&nbsp;e.V.
         </a>
     </h1>

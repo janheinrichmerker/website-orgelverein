@@ -28,16 +28,16 @@ sondern die notwendigen Pfeifen auf zwei gegenüberliegende, filigrane Zwillings
         <a href="/model/west.jpg">
             <img src="/model/west-100px.jpg" alt="Modellansicht West" id="organ-model-west">
         </a>
-        <a href="/design/south-organ-north-view.jpg">
+        <a href="/design/south-organ-north-view.png">
             <img src="/design/south-organ-north-view-100px.png" alt="Entwurf Nord" id="organ-layout-north">
         </a>
-        <a href="/design/south-organ-east-view.jpg">
+        <a href="/design/south-organ-east-view.png">
             <img src="/design/south-organ-east-view-100px.png" alt="Entwurf Ost" id="organ-layout-east">
         </a>
-        <a href="/design/south-organ-south-view.jpg">
+        <a href="/design/south-organ-south-view.png">
             <img src="/design/south-organ-south-view-100px.png" alt="Entwurf Süd" id="organ-layout-south">
         </a>
-        <a href="/design/south-organ-west-view.jpg">
+        <a href="/design/south-organ-west-view.png">
             <img src="/design/south-organ-west-view-100px.png" alt="Entwurf West" id="organ-layout-west">
         </a>
     </div>
