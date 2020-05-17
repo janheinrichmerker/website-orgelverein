@@ -7,17 +7,17 @@ menu:
     name: Start
 ---
 
-{{< raw-html >}}
+
 <em class="notification">
+
 Einige Spender haben bei der Banküberweisung keine Adresse hinterlegt.
-Wenn Sie eine Spendenquittung benötigen,
-<a href="mailto:info@orgel-braunschweigerdom.de">senden</a> Sie uns Ihre Adresse zu: 
-<a href="mailto:info@orgel-braunschweigerdom.de">info@orgel-braunschweigerdom.de</a>
+Wenn Sie eine Spendenquittung benötigen, [senden](mailto:info@orgel-braunschweigerdom.de) Sie uns Ihre Adresse zu: 
+info@orgel-braunschweigerdom.de
+
 </em>
-{{< /raw-html >}}
 
 ## Eine Orgel für den Braunschweiger Dom
-{{< raw-html >}}
+
 <figure>
     <a href="/impressions/tag-der-domsingschule.jpg">
         <img src="/impressions/tag-der-domsingschule-600px.jpg"
@@ -28,7 +28,6 @@ Wenn Sie eine Spendenquittung benötigen,
         <small>(Foto: <a href="https://www.petersierigk.de/">Peter Sierigk</a>)</small>
     </figcaption>
 </figure>
-{{< /raw-html >}}
 
 Der [Braunschweiger Dom](https://braunschweigerdom.de/) ist eine lebendige Gemeindekirche 
 und eines der wichtigsten kulturellen und kulturhistorischen Zentren Norddeutschlands.
@@ -42,7 +41,7 @@ die Hunderte Kinder musikalisch ausbildet.
 
 
 ## Warum eine weitere Orgel?
-{{< raw-html >}}
+
 <figure>
     <a href="/impressions/quempas.jpg">
         <img src="/impressions/quempas-600px.jpg" 
@@ -53,7 +52,6 @@ die Hunderte Kinder musikalisch ausbildet.
         <small>(Foto: Braunschweiger Domsingschule)</small>
     </figcaption>
 </figure>
-{{< /raw-html >}}
 
 Die neue Orgel soll die Chöre angemessen begleiten.
 Auftrittsort der Chöre sind die Treppenstufen vor dem Siebenarmigen Leuchter.
@@ -88,7 +86,7 @@ Hier gehts zum [Spenderbrevier]({{< relref "/spenden.md" >}}),
 das über alle Spendenmöglichkeiten Auskunft gibt.
 
 ## Das Projekt für alle, die Musik lieben und Musikvermittlung fördern möchten
-{{< raw-html >}}
+
 <figure>
     <a href="/design/sketch-colored.jpg" 
        data-description="Skizze des Orgelentwurfs mit den beiden Zwillingsorgeln rechts und links vom Leuchter.">
@@ -99,7 +97,6 @@ das über alle Spendenmöglichkeiten Auskunft gibt.
         Im Entwurf rahmen zwei "Engelsflügel" den Leuchter links und rechts ein.
     </figcaption>
 </figure>
-{{< /raw-html >}}
 
 Das ausgeprägte Mäzenatentum aus Liebe zur Musik in unserer Region, 
 aber auch das Bemühen die musikalische Vermittlung und Ausbildung 
