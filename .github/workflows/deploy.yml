@@ -1,0 +1,44 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: "📥 Check-out"
+      uses: actions/checkout@v2
+    - name: "🧰 Install Hugo"
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 0.74.2
+        extended: true
+    - name: "🧰 Install Node"
+      uses: actions/setup-node@v1
+      with:
+        node-version: 8.16.x
+    - name: "🧰 Install Yarn"
+      run: npm install -g yarn
+    - name: "🧰 Install asset dependencies"
+      run: |
+        cd assets
+        yarn install
+    - name: "🏗 Build"
+      run: hugo
+    - name: "🧰 Install LFTP"
+      run: sudo apt-get install lftp
+    - name: "🚀 Deploy via SFTP"
+      run: |
+        mkdir /lftp
+        echo ${{ secrets.DEPLOY_KEY }} > /lftp/key
+
+        cat > /lftp/script << EOL
+        set sftp:connect-program ssh -i /lftp/key -l ${{ secrets.DEPLOY_USER }}
+        open sftp://${{ secrets.DEPLOY_TARGET_HOST }}
+        mirror -eR public ${{ secrets.DEPLOY_TARGET_PATH }}
+        EOL
+
+        lftp /lftp/script
