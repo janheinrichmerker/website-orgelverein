@@ -8,7 +8,7 @@ menu:
 
 ## Der Entwurf des Orgelarchitekten
 Aus einer intensiven Diskussion unter Beteiligung der Landesdenkmalpflege 
-und des renommierten Orgelbauarchitekten [Lothar Zickermann](https://orgelarchitektur-zickermann.de/) 
+und des renommierten Orgelbauarchitekten [Lothar Zickermann](https://orgelarchitektur-zickermann.de/aktuell/) 
 ist ein interessanter Orgelentwurf hervorgegangen, der nicht von einem einzelnen Instrument ausgeht, 
 sondern die notwendigen Pfeifen auf zwei gegenüberliegende, filigrane Zwillingsgehäuse verteilt. 
 
