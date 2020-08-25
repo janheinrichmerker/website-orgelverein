@@ -27,7 +27,7 @@ menu:
 ## Spendenkonten
 
 ### Volksbank eG Braunschweig Wolfsburg
-{{< raw-html >}}
+
 <dl>
     <dt>Empfänger</dt>
     <dd>Orgelbauverein am Braunschweiger Dom e.V.</dd>
@@ -36,10 +36,9 @@ menu:
     <dt>SWIFT/BIC</dt>
     <dd>GENODEF1WOB</dd>
 </dl>
-{{< /raw-html >}}
 
 ### Braunschweigische Landessparkasse (NORD/LB)
-{{< raw-html >}}
+
 <dl>
     <dt>Empfänger</dt>
     <dd>Orgelbauverein am Braunschweiger Dom e.V.</dd>
@@ -48,4 +47,3 @@ menu:
     <dt>SWIFT/BIC</dt>
     <dd>NOLADE2HXXX</dd>
 </dl>
-{{< /raw-html >}}

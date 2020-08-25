@@ -9,13 +9,19 @@ enableRobotsTXT: true
 paginate: 5
 paginatePath: "" # Append page number to list path directly.
 disableKinds:
-  - taxonomies
-  - taxonomyTerm
+- taxonomies
+- taxonomyTerm
 
 sitemap:
   changeFreq: "monthly"
   priority: 0.5
   filename: "sitemap.xml"
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   env: production

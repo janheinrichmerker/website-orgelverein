@@ -1,6 +1,8 @@
 - name: Nordorgel
-  value: 23000
+  value: 65000
   max: 370000
+  lastUpdated: 2020-08-23
 - name: Südorgel
   value: 480000
   max: 480000
+  lastUpdated: 2020-01-30

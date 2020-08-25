@@ -434,10 +434,9 @@ body {
                 }
             }
 
-            em.notification {
+            .notification p {
                 display: block;
                 background: $notification-background;
-                margin: 1em auto;
                 border: 1px solid $notification-border-color;
                 border-radius: 0.25em;
                 padding: 0.5em;

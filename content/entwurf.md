@@ -8,11 +8,10 @@ menu:
 
 ## Der Entwurf des Orgelarchitekten
 Aus einer intensiven Diskussion unter Beteiligung der Landesdenkmalpflege 
-und des renommierten Orgelbauarchitekten [Lothar Zickermann](https://orgelarchitektur-zickermann.de/) 
+und des renommierten Orgelbauarchitekten [Lothar Zickermann](https://orgelarchitektur-zickermann.de/aktuell/) 
 ist ein interessanter Orgelentwurf hervorgegangen, der nicht von einem einzelnen Instrument ausgeht, 
 sondern die notwendigen Pfeifen auf zwei gegenüberliegende, filigrane Zwillingsgehäuse verteilt. 
 
-{{< raw-html >}}
 <figure id="organ-layout">
     <div id="map">
         <img src="/design/layout-600px.png" alt="Interaktive Draufsicht">
@@ -43,7 +42,6 @@ sondern die notwendigen Pfeifen auf zwei gegenüberliegende, filigrane Zwillings
     </div>
     <figcaption>Die Nordorgel ist spiegelsymmetrisch.</figcaption>
 </figure>
-{{< /raw-html >}}
 
 Die beiden Orgelteile sind in ihrer Anmutung den Flügeln eines Engels nachempfunden.
 Der Siebenarmige Leuchter wird somit in der Vorstellung des Orgelarchitekten 
