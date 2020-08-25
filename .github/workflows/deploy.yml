@@ -44,4 +44,8 @@ jobs:
         mirror -eR public ${{ secrets.DEPLOY_TARGET_PATH }}
         EOL
 
+        cat >> ~/.ssh/known_hosts << EOL
+        ${{ secrets.DEPLOY_TARGET_HOST_KEY }}
+        EOL
+
         lftp -f lftp/script
