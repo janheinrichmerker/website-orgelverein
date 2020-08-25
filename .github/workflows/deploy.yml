@@ -44,4 +44,4 @@ jobs:
         mirror -eR public ${{ secrets.DEPLOY_TARGET_PATH }}
         EOL
 
-        lftp lftp/script
+        lftp -f lftp/script
