@@ -7,15 +7,6 @@ menu:
     name: Start
 ---
 
-
-<div class="notification">
-
-Einige Spender haben bei der Banküberweisung keine Adresse hinterlegt.
-Wenn Sie eine Spendenquittung benötigen, [senden](mailto:info@orgel-braunschweigerdom.de) Sie uns Ihre Adresse zu: 
-info@orgel-braunschweigerdom.de
-
-</div>
-
 ## Eine Orgel für den Braunschweiger Dom
 
 <figure>
