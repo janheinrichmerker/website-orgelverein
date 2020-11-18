@@ -8,16 +8,24 @@ menu:
   footer:
     weight: 1
     name: Spenden
+resources:
+- name: spende
+  src: spende.pdf
+  title: "Spendenformular"
+- name: spende-innenpfeifen
+  src: spende-innenpfeifen.pdf
+  title: "Spendenformular Innenpfeifen"
+- name: spende-prospektpfeifen
+  src: spende-prospektpfeifen.pdf
+  title: "Spendenformular Prospektpfeifen"
 ---
-
-<!-- TODO Spendentool Sparkasse -->
 
 ### Wie können Sie spenden?
 
 1. Laden Sie das passende Spendenformular herunter:
-    - [Formular](/documents/Spendenformular.pdf) ohne Patenschaft
-    - [Formular](/documents/Spendenformular%20Innenpfeifen.pdf) mit Patenschaft (Innenpfeifen)
-    - [Formular](/documents/Spendenformular%20Prospektpfeifen.pdf) mit Patenschaft (Prospektpfeifen)
+    - {{< download name="spende" title="Formular" >}} ohne Patenschaft
+    - {{< download name="spende-innenpfeifen" title="Formular" >}} mit Patenschaft (Innenpfeifen)
+    - {{< download name="spende-prospektpfeifen" title="Formular" >}} mit Patenschaft (Prospektpfeifen)
 1. Füllen Sie das Spendenformular aus.
     - Geben Sie Ihre Kontaktdaten zur korrekten Übermittlung der Spendenquittung an.
     - Wählen Sie eine oder mehrere Pfeifen aus, für die Sie die Patenschaft übernehmen wollen.
