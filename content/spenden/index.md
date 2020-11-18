@@ -11,6 +11,35 @@ menu:
   footer:
     weight: 2
     name: Patenschaften
+resources:
+- name: pfeife-metall-klein
+  src: pfeifen/metall/klein.jpg
+  title: "Metallpfeife, 15-60cm"
+- name: pfeife-metall-mittel
+  src: pfeifen/metall/mittel.jpg
+  title: "Metallpfeife, 60-120cm"
+- name: pfeife-metall-groß
+  src: pfeifen/metall/gross.jpg
+  title: "Metallpfeife, 120-240cm"
+- name: pfeife-holz-klein
+  src: pfeifen/holz/klein.jpg
+  title: "Holzpfeife, 15-60cm"
+- name: pfeife-holz-mittel
+  src: pfeifen/holz/mittel.jpg
+  title: "Holzpfeife, 60-120cm"
+- name: pfeife-holz-groß
+  src: pfeifen/holz/gross.jpg
+  title: "Holzpfeife, 120-240cm"
+- name: prospekt-frontansicht
+  src: prospekt/frontansicht.png
+  title: "Orgelprospekt"
+  params:
+    caption: "Orgelprospekt (Frontansicht)"
+- name: prospekt-draufsicht
+  src: prospekt/draufsicht.png
+  title: "Orgelprospekt"
+  params:
+    caption: "Orgelprospekt (Draufsicht)"
 ---
 
 ## Spenden Sie ohne oder mit Übernahme einer Pfeifenpatenschaft
@@ -74,43 +103,31 @@ Verwenden Sie hierzu unser [Spendenformular][formular].
     <tbody>
         <tr>
             <td>
-                <a href="/organ/metal-small.jpg">
-                    <img src="/organ/metal-small-600px.jpg" alt="Metallpfeife, 15-60cm">
-                </a>
+                {{< image "pfeife-metall-klein" >}}
                 <p>15-60cm lang: 50 €</p>
             </td>
             <td>
-                <a href="/organ/wood-small.jpg">
-                    <img src="/organ/wood-small-600px.jpg" alt="Holzpfeife, 15-60cm">
-                </a>
+                {{< image "pfeife-holz-klein" >}}
                 <p>15-60cm lang: 75 €</p>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/organ/metal-medium.jpg">
-                    <img src="/organ/metal-medium-600px.jpg" alt="Metallpfeife, 60-120cm">
-                </a>
+                {{< image "pfeife-metall-mittel" >}}
                 <p>60-120cm lang: 100 €</p>
             </td>
             <td>
-                <a href="/organ/wood-medium.jpg">
-                    <img src="/organ/wood-medium-600px.jpg" alt="Holzpfeife, 60-120cm">
-                </a>
+                {{< image "pfeife-holz-mittel" >}}
                 <p>60-120cm lang: 150 €</p>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/organ/metal-large.jpg">
-                    <img src="/organ/metal-large-600px.jpg" alt="Metallpfeife, 120-240cm">
-                </a>
+                {{< image "pfeife-metall-gross" >}}
                 <p>120-240cm lang: 200 €</p>
             </td>
             <td>
-                <a href="/organ/wood-large.jpg">
-                    <img src="/organ/wood-large-600px.jpg" alt="Holzpfeife, 120-240cm">
-                </a>
+                {{< image "pfeife-holz-gross" >}}
                 <p>120-240cm lang: 250 €</p>
             </td>
         </tr>
@@ -133,22 +150,7 @@ die kommenden Generationen im Dom erhalten bleibt.
     <dd>10.000 €</dd>
 </dl>
 
-<figure>
-    <a href="/funding/pipes-front.png">
-        <img src="/funding/pipes-front-600px.png" alt="Orgelprospekt">
-    </a>
-    <figcaption>
-        Orgelprospekt (Frontansicht)
-    </figcaption>
-</figure>
-
-<figure>
-    <a href="/funding/pipes-top.png">
-        <img src="/funding/pipes-top-600px.png" alt="Orgelprospekt">
-    </a>
-    <figcaption>
-        Orgelprospekt (Draufsicht)
-    </figcaption>
-</figure>
+{{< figure name="prospekt-frontansicht" >}}
+{{< figure name="prospekt-draufsicht" >}}
 
 [formular]: {{< relref "/formular.md" >}}
