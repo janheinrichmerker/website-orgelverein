@@ -5,20 +5,33 @@ menu:
   main:
     weight: 1
     name: Start
+resources:
+- name: tag-der-domsingschule
+  src: tag-der-domsingschule.jpg
+  title: Impression vom Tag der Domsingschule
+  params:
+    caption: |
+      Z.Zt. werden die Kinder mit einem Provisorium (oben Mitte) begleitet.
+    attribution: Peter Sierigk
+    attributionLink: https://www.petersierigk.de/
+- name: quempas
+  src: quempas.jpg
+  title: Impression vom Quempassingen
+  params:
+    caption: |
+      Die neue Orgel soll die Chöre angemessen begleiten.
+    attribution: Braunschweiger Domsingschule
+- name: skizze
+  src: skizze-coloriert.jpg
+  title: Skizze des Orgelentwurfs
+  params:
+    caption: |
+      Im Entwurf rahmen zwei „Engelsflügel“ den Leuchter links und rechts ein.
 ---
 
 ## Eine Orgel für den Braunschweiger Dom
 
-<figure>
-    <a href="/impressions/tag-der-domsingschule.jpg">
-        <img src="/impressions/tag-der-domsingschule-600px.jpg"
-             alt="Impression vom Tag der Domsingschule">
-    </a>
-    <figcaption>
-        Z.Zt. werden die Kinder mit einem Provisorium (oben Mitte) begleitet.
-        <small>(Foto: <a href="https://www.petersierigk.de/">Peter Sierigk</a>)</small>
-    </figcaption>
-</figure>
+{{< figure name="tag-der-domsingschule" >}}
 
 Der [Braunschweiger Dom](https://braunschweigerdom.de/) ist eine lebendige Gemeindekirche 
 und eines der wichtigsten kulturellen und kulturhistorischen Zentren Norddeutschlands.
@@ -33,16 +46,7 @@ die Hunderte Kinder musikalisch ausbildet.
 
 ## Warum eine weitere Orgel?
 
-<figure>
-    <a href="/impressions/quempas.jpg">
-        <img src="/impressions/quempas-600px.jpg" 
-             alt="Impression vom Quempassingen">
-    </a>
-    <figcaption>
-         Die neue Orgel soll die Chöre angemessen begleiten.
-        <small>(Foto: Braunschweiger Domsingschule)</small>
-    </figcaption>
-</figure>
+{{< figure name="quempas" >}}
 
 Die neue Orgel soll die Chöre angemessen begleiten.
 Auftrittsort der Chöre sind die Treppenstufen vor dem Siebenarmigen Leuchter.
@@ -55,7 +59,7 @@ Dann wird – wie in allen bedeutenden Kathedralen –
 die Musik durch mehrere Instrumente zum Klingen gebracht.
 
 Schauen Sie sich den interessanten [Entwurf]({{< relref "/entwurf.md" >}}) vom Orgelarchitekten Lothar Zickermann an 
-und informieren Sie sich über die Chancen einer [Orgelanlage]({{< relref "/technik.md" >}}), 
+und informieren Sie sich über die Chancen einer [Orgelanlage]({{< relref "/technik" >}}), 
 deren Klang Sie von allen Seiten erreichen wird.
 
 Die Arbeit der Domsingschule geht über das reine Singen hinaus. 
@@ -78,16 +82,7 @@ das über alle Spendenmöglichkeiten Auskunft gibt.
 
 ## Das Projekt für alle, die Musik lieben und Musikvermittlung fördern möchten
 
-<figure>
-    <a href="/design/sketch-colored.jpg" 
-       data-description="Skizze des Orgelentwurfs mit den beiden Zwillingsorgeln rechts und links vom Leuchter.">
-        <img src="/design/sketch-colored-600px.jpg" 
-             alt="Skizze des Orgelentwurfs">
-    </a>
-    <figcaption>
-        Im Entwurf rahmen zwei "Engelsflügel" den Leuchter links und rechts ein.
-    </figcaption>
-</figure>
+{{< figure name="skizze" >}}
 
 Das ausgeprägte Mäzenatentum aus Liebe zur Musik in unserer Region, 
 aber auch das Bemühen die musikalische Vermittlung und Ausbildung 
