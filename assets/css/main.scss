@@ -29,6 +29,12 @@ $font-family-sans: "Merriweather Sans", "Arial", sans-serif;
     box-sizing: border-box;
 }
 
+@media print {
+    @page {
+        margin: 1.5cm;
+    }
+}
+
 body {
     background: $background;
     color: $color;
@@ -36,12 +42,41 @@ body {
     margin: 0;
     font-family: $font-family-serif;
 
+    a {
+        page-break-inside: avoid;
+
+        @media print {
+            color: unset !important;
+            text-decoration: none !important;
+        }
+    }
+
     h1, h2, h3, h4, h5, h6 {
         font-family: $font-family-sans;
+        page-break-inside: avoid;
+        page-break-after: avoid;
+
+        @media print {
+            font-weight: 400;
+        }
     }
 
     img {
         max-width: 100%;
+        page-break-inside: avoid;
+        page-break-after: avoid;
+    }
+
+    blockquote {
+        page-break-inside: avoid;
+    }
+
+    table, pre {
+        page-break-inside: avoid;
+    }
+
+    ul, ol, dl {
+        page-break-before: avoid;
     }
 
     dl {
@@ -80,12 +115,18 @@ body {
         background: $background-inverse;
         color: $color-inverse;
         font-family: $font-family-sans;
-        box-shadow:
-                0 3px 1px -2px rgba(0,0,0,0.2),
-                0 2px 2px 0 rgba(0,0,0,0.14),
-                0 1px 5px 0 rgba(0,0,0,0.12);
+        box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 1px 5px 0 rgba(0, 0, 0, 0.12);
         z-index: 1;
         position: relative;
+        page-break-inside: avoid;
+
+        @media print {
+            color: $color;
+            box-shadow: none;
+            border-bottom: 1px solid fade_out($color, 0.7);
+        }
 
         a {
             color: $color-inverse;
@@ -96,6 +137,10 @@ body {
             flex: 0 0 100%;
             width: 100%;
             margin: 0 auto;
+
+            @media print {
+                display: none;
+            }
 
             @media only screen and (min-width: 650px) {
                 flex: 0;
@@ -161,6 +206,10 @@ body {
         > nav {
             flex: 0 0 100%;
             margin-bottom: 0.5em;
+
+            @media print {
+                display: none;
+            }
 
             @media only screen and (min-width: 1000px) {
                 flex: 3;
@@ -286,6 +335,11 @@ body {
                         margin: 0.5em;
                         max-width: 100%;
                         max-height: 40vh;
+
+                        @media print {
+                            max-width: 40vw;
+                            max-height: 30vh;
+                        }
                     }
 
                     td {
@@ -317,6 +371,11 @@ body {
                 max-width: 50vw;
                 margin: 1em auto;
 
+                @media only print {
+                    width: max-content;
+                    max-width: 80vw;
+                }
+
                 @media only screen and (min-width: 650px) {
                     float: left;
                     margin: 0 2em 0 0;
@@ -346,7 +405,8 @@ body {
                     div#map {
                         display: inline-block;
                         position: relative;
-                        width: max-content;
+                        //width: max-content;
+                        margin: 0 auto;
 
                         img {
                             max-width: 80vw;
@@ -368,12 +428,17 @@ body {
                                 padding: 0;
                                 border: 1px solid $image-border-color-opaque;
                                 border-radius: 0.125em;
-                                transform: translate(-50%,-50%);
+                                transform: translate(-50%, -50%);
                                 box-shadow: 0 2px 1px -2px rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.28), 0 0px 5px 0 rgba(0, 0, 0, 0.24);
                                 transition: box-shadow 0.3s ease-out;
 
                                 &:hover {
                                     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.8), 0 1px 4px 0 rgba(0, 0, 0, 0.56), 0 0px 10px 0 rgba(0, 0, 0, 0.48);
+                                }
+
+                                @media print {
+                                    box-shadow: none;
+                                    border: 1px solid $image-border-color-opaque;
                                 }
                             }
 
@@ -452,6 +517,10 @@ body {
                     &:after {
                         display: inline-block;
                         font-weight: lighter;
+
+                        @media print {
+                            display: none;
+                        }
                     }
 
                     &[href$="pdf"]:after {
@@ -461,7 +530,7 @@ body {
                     }
 
                     &[href*="http://"]:after, &[href*="https://"]:after {
-                        content: " ➚";
+                        content: " ➚";
 
                         &[href*="http://orgel-braunschweigerdom.de"]:after, &[href*="https://orgel-braunschweigerdom.de"]:after {
                             display: none;
@@ -639,16 +708,18 @@ body {
         > aside {
             flex: 0 0 100%;
             background: $background-secondary;
-            box-shadow:
-                    -3px 3px 1px -2px rgba(0,0,0,0.1),
-                    -1px 2px 2px 0 rgba(0,0,0,0.07),
-                    0 1px 5px 0 rgba(0,0,0,0.06),
-                    3px 3px 1px -2px rgba(0,0,0,0.1),
-                    1px 2px 2px 0 rgba(0,0,0,0.07),
-                    0 1px 5px 0 rgba(0,0,0,0.06);
+            box-shadow: -3px 3px 1px -2px rgba(0, 0, 0, 0.1),
+            -1px 2px 2px 0 rgba(0, 0, 0, 0.07),
+            0 1px 5px 0 rgba(0, 0, 0, 0.06),
+            3px 3px 1px -2px rgba(0, 0, 0, 0.1),
+            1px 2px 2px 0 rgba(0, 0, 0, 0.07),
+            0 1px 5px 0 rgba(0, 0, 0, 0.06);
             padding: 0 1em;
             height: fit-content;
 
+            @media print {
+                display: none;
+            }
 
             @media only screen and (min-width: 800px) {
                 flex: 0 0 25%;
@@ -782,14 +853,21 @@ body {
         width: 100%;
         background: $background-inverse;
         color: $color-inverse;
-        box-shadow:
-                0 -3px 1px -2px rgba(0,0,0,0.2),
-                0 -2px 2px 0 rgba(0,0,0,0.14),
-                0 -1px 5px 0 rgba(0,0,0,0.12);
+        box-shadow: 0 -3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 -2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 -1px 5px 0 rgba(0, 0, 0, 0.12);
         padding: 1em;
         z-index: 1;
         position: relative;
         line-height: 1.5;
+        page-break-inside: avoid;
+
+        @media print {
+            color: $color;
+            box-shadow: none;
+            border-top: 1px solid fade_out($color, 0.7);
+            text-align: center;
+        }
 
         > h2 {
             flex: 0 0 100%;
@@ -832,6 +910,10 @@ body {
             &:not(#copyright) {
                 @media only screen and (min-width: 800px) {
                     flex: 1;
+                }
+
+                @media print {
+                    display: none;
                 }
             }
         }
