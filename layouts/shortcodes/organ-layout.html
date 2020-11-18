@@ -1,0 +1,47 @@
+{{- $inner := .Inner -}}
+{{- $name := .Get "name" -}}
+{{- $caption := .Get "caption" -}}
+{{- $attribution := .Get "attribution" -}}
+{{- $attributionLink := .Get "attribution-link" -}}
+{{- if $name -}}
+{{- $resource := $.Page.Resources.GetMatch $name -}}
+{{- if not $caption -}}
+{{- $caption = $resource.Params.caption -}}
+{{- end -}}
+{{- if not $attribution -}}
+{{- $attribution = $resource.Params.attribution -}}
+{{- end -}}
+{{- if not $attributionLink -}}
+{{- $attributionLink = $resource.Params.attributionLink -}}
+{{- end -}}
+{{- with $resource -}}
+{{- if eq .ResourceType "image" -}}
+<figure id="organ-layout">
+    <div id="map">
+        {{- with .Resize "600x" -}}
+        <img src="{{ .RelPermalink }}"
+             alt="{{ .Title }}">
+        {{- end -}}
+        {{- $inner -}}
+    </div>
+    {{- if or $caption $attribution -}}
+    <figcaption>
+        {{- markdownify $caption -}}
+        {{- if and $caption $attribution -}}&nbsp;{{- end -}}
+        {{- with $attribution -}}&nbsp;
+        <small>
+            (Foto:&nbsp;
+            {{- with $attributionLink -}}<a href="{{.}}">{{- end -}}
+            {{- . -}}
+            {{- if $attributionLink -}}</a>{{- end -}}
+            )
+        </small>
+        {{- end -}}
+    </figcaption>
+    {{ end }}
+</figure>
+{{- end -}}
+{{- end -}}
+{{- else -}}
+{{- errorf "No resource name specified" -}}
+{{- end -}}
