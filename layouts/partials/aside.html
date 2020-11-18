@@ -2,7 +2,9 @@
     <section>
         <figure>
             <a href='{{ relref . "/entwurf.md" }}' title="Entwurf">
-                <img src="/design/south-organ-detail-600px.png" alt="Entwurf der Zwillingsorgeln">
+                {{- $image := resources.Get "images/orgel.png" -}}
+                {{- $image := $image.Resize "400x" -}}
+                <img src='{{ $image.RelPermalink  }}' alt="Entwurf der Zwillingsorgeln">
             </a>
             <figcaption>Entwurf der Zwillingsorgeln</figcaption>
         </figure>
