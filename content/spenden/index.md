@@ -14,22 +14,22 @@ menu:
 resources:
 - name: pfeife-metall-klein
   src: pfeifen/metall/klein.jpg
-  title: "Metallpfeife, 15-60cm"
+  title: "Metallpfeife, 15-60 cm"
 - name: pfeife-metall-mittel
   src: pfeifen/metall/mittel.jpg
-  title: "Metallpfeife, 60-120cm"
+  title: "Metallpfeife, 60-120 cm"
 - name: pfeife-metall-groß
   src: pfeifen/metall/gross.jpg
-  title: "Metallpfeife, 120-240cm"
+  title: "Metallpfeife, 120-240 cm"
 - name: pfeife-holz-klein
   src: pfeifen/holz/klein.jpg
-  title: "Holzpfeife, 15-60cm"
+  title: "Holzpfeife, 15-60 cm"
 - name: pfeife-holz-mittel
   src: pfeifen/holz/mittel.jpg
-  title: "Holzpfeife, 60-120cm"
+  title: "Holzpfeife, 60-120 cm"
 - name: pfeife-holz-groß
   src: pfeifen/holz/gross.jpg
-  title: "Holzpfeife, 120-240cm"
+  title: "Holzpfeife, 120-240 cm"
 - name: prospekt-frontansicht
   src: prospekt/frontansicht.png
   title: "Orgelprospekt"
@@ -50,7 +50,7 @@ Die Länge der Pfeifen variiert von 15 cm bis 4,80 m.
 Beide Orgelteile werden zusammen 2.260 Pfeifen haben. 
 Mit jeder Pfeifenpatenschaft schenken Sie dem Instrument eine weitere Klangfarbe.
 
-### Pfeifenpatenschaften – ein beständiges Geschenk zu besonderen Anlässen
+### Pfeifenpatenschaften&nbsp;– ein beständiges Geschenk zu besonderen Anlässen
 Vielleicht möchten Sie auch zur Erinnerung an einen lieben Menschen eine Pfeife spenden?
 
 - _Alle_ Spender erhalten eine Zuwendungsbestätigung (Spendenbescheinigung).
@@ -104,31 +104,31 @@ Verwenden Sie hierzu unser [Spendenformular][formular].
         <tr>
             <td>
                 {{< image "pfeife-metall-klein" >}}
-                <p>15-60cm lang: 50 €</p>
+                <p>15-60 cm lang: 50 €</p>
             </td>
             <td>
                 {{< image "pfeife-holz-klein" >}}
-                <p>15-60cm lang: 75 €</p>
+                <p>15-60 cm lang: 75 €</p>
             </td>
         </tr>
         <tr>
             <td>
                 {{< image "pfeife-metall-mittel" >}}
-                <p>60-120cm lang: 100 €</p>
+                <p>60-120 cm lang: 100 €</p>
             </td>
             <td>
                 {{< image "pfeife-holz-mittel" >}}
-                <p>60-120cm lang: 150 €</p>
+                <p>60-120 cm lang: 150 €</p>
             </td>
         </tr>
         <tr>
             <td>
-                {{< image "pfeife-metall-gross" >}}
-                <p>120-240cm lang: 200 €</p>
+                {{< image "pfeife-metall-groß" >}}
+                <p>120-240 cm lang: 200 €</p>
             </td>
             <td>
-                {{< image "pfeife-holz-gross" >}}
-                <p>120-240cm lang: 250 €</p>
+                {{< image "pfeife-holz-groß" >}}
+                <p>120-240 cm lang: 250 €</p>
             </td>
         </tr>
     </tbody>
@@ -140,14 +140,14 @@ Großspender der Prospektpfeifen erhalten auf Wunsch eine öffentliche namentlic
 die kommenden Generationen im Dom erhalten bleibt.
 
 <dl id="frontal-pipes">
-    <dt>Preisgruppe 1 <span class="color-bullet" style="color: #00dd00;">(grün)</span></dt>
-    <dd>2.500 €</dd>
-    <dt>Preisgruppe 2 <span class="color-bullet" style="color: #0000cd;">(blau)</span></dt>
-    <dd>5.000 €</dd>
-    <dt>Preisgruppe 3 <span class="color-bullet" style="color: #ffa500;">(gelb)</span></dt>
-    <dd>7.500 €</dd>
-    <dt>Preisgruppe 4 <span class="color-bullet" style="color: #ff0000;">(rot)</span></dt>
-    <dd>10.000 €</dd>
+    <dt>Preisgruppe&nbsp;1 <span class="color-bullet" style="color: #00dd00;">(grün)</span></dt>
+    <dd>2.500 €</dd>
+    <dt>Preisgruppe&nbsp;2 <span class="color-bullet" style="color: #0000cd;">(blau)</span></dt>
+    <dd>5.000 €</dd>
+    <dt>Preisgruppe&nbsp;3 <span class="color-bullet" style="color: #ffa500;">(gelb)</span></dt>
+    <dd>7.500 €</dd>
+    <dt>Preisgruppe&nbsp;4 <span class="color-bullet" style="color: #ff0000;">(rot)</span></dt>
+    <dd>10.000 €</dd>
 </dl>
 
 {{< figure name="prospekt-frontansicht" >}}

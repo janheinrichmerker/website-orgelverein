@@ -40,7 +40,7 @@ Instruments und dass sie an dieser Stelle wertvolle Wandmalereien verdecke.
 
 Im Zuge der Debatte stellte sich heraus, dass für die sinnvollste Lösung eine
 Menge Dinge zu bedenken sind: der Denkmalschutz, die Bedürfnisse des
-Gottesdiensts sowie der Kirchenmusik – und natürlich die Akustik. „Alles
+Gottesdiensts sowie der Kirchenmusik&nbsp;– und natürlich die Akustik. „Alles
 unter einen Hut zu bringen ist gar nicht so einfach“, betont Martina Krug.
 
 Beim jüngsten Treffen in dieser diffizilen Sache waren dabei: Christina

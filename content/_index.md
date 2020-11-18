@@ -55,7 +55,7 @@ Allerdings fehlt an dieser Stelle das erforderliche Begleitinstrument.
 Die vorhandene große Orgel im Westwerk füllt den Dom mit Klang, ist aber nicht geeignet, 
 Kinderstimmen zu begleiten. Daher soll ein dem Dom angemessenes weiteres Orgelwerk gebaut werden, 
 das speziell Chöre begleiten kann und auch den zentralen Bereich des Domes musikalisch erschließt. 
-Dann wird – wie in allen bedeutenden Kathedralen – 
+Dann wird&nbsp;– wie in allen bedeutenden Kathedralen&nbsp;– 
 die Musik durch mehrere Instrumente zum Klingen gebracht.
 
 Schauen Sie sich den interessanten [Entwurf]({{< relref "/entwurf.md" >}}) vom Orgelarchitekten Lothar Zickermann an 

@@ -44,7 +44,7 @@ förmlich umarmen.
 Die Instrumente sollen rechts und links hinter dem Siebenarmigen Leuchter
 stehen, sind jedoch von einem Spielpult zu bedienen, das davor steht. „Damit
 wäre die Feinabstimmung zwischen Chor und Orgel perfekt“, so Martina
-Krug. Der Organist hätte beste Sicht auf die Chöre – gerade für die Arbeit mit
+Krug. Der Organist hätte beste Sicht auf die Chöre&nbsp;– gerade für die Arbeit mit
 Kindern unerlässlich.
 
 Zum Hintergrund: Der Förderverein setzt sich seit einiger Zeit intensiv dafür
@@ -57,13 +57,13 @@ Chorkonzerten zu steigern“, so die Vorsitzende des Fördervereins.
 
 Im Zuge der Debatte stellte sich heraus, dass zur sinnvollsten Lösung vieles
 zu bedenken ist: der Denkmalschutz, die Bedürfnisse des Gottesdiensts sowie
-der Kirchenmusik – und natürlich die Akustik. „Alles unter einen Hut zu
+der Kirchenmusik&nbsp;– und natürlich die Akustik. „Alles unter einen Hut zu
 bringen ist gar nicht so einfach“, betont Martina Krug.
 
 Die Zwillings-Orgeln sollen von allen Seiten verkleidet werden. Da sie
 verhältnismäßig klein sind, würden sie auch nicht das Epitaph im Seitenschiff
 verdecken. Zusätzlich zu den neuen Chor-Orgeln soll auch der Eingang der
-Krypta neu gestaltet werden, berichtet Martina Krug. Die – kaum genutzte –
+Krypta neu gestaltet werden, berichtet Martina Krug. Die&nbsp;– kaum genutzte&nbsp;–
 Treppe zum Übergang zur Burg Dankwarderode könnte in diesem
 Zusammenhang möglicherweise abgebaut werden. „Ich empfinde sie als recht
 unharmonisch“, meint Martina Krug.
@@ -72,8 +72,8 @@ Auch Dompredigerin Cornelia Götz hatte im BZ-Interview Ende vergangenen
 Jahres keinen Hehl daraus gemacht, dass sie gut auf die Treppe verzichten
 könne.
 
-Der Übergang zur Burg ist fast immer verschlossen, da dort – anders als im
-Dom – Eintritt erhoben wird.
+Der Übergang zur Burg ist fast immer verschlossen, da dort&nbsp;– anders als im
+Dom&nbsp;– Eintritt erhoben wird.
 
 <small>
 

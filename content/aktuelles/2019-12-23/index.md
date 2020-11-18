@@ -3,7 +3,7 @@ title: "Warum Braunschweigs Dom eine neue Orgel braucht"
 date: 2019-12-23
 summary: |
   Domkantor Gerd-Peter Münden kämpft mit Verve für ein
-  Instrument an beiden Seiten der Altars – vor allem für Chorkonzerte.
+  Instrument an beiden Seiten der Altars&nbsp;– vor allem für Chorkonzerte.
 resources:
 - name: article
   src: warum-braunschweigs-dom-eine-neue-orgel-braucht.pdf
@@ -83,7 +83,7 @@ Surround Sound“. Der Trick ist: An drei von vier Seiten der viereckigen
 Orgelgehäuse wird eine Art Jalousie mit Lamellen angebracht, die sich per
 Fußdruck öffnen und schließen lassen. Nur die hintere Wand bleibt
 geschlossen. So kann der Klang stufenlos zielgenau dorthin gesteuert werden,
-wo er gerade gebraucht wird – für Gottesdienst, Konzert, Taufe.
+wo er gerade gebraucht wird&nbsp;– für Gottesdienst, Konzert, Taufe.
 
 Für den Chorgesang sei die Orgel mit ihrem „englischen“, weich-pastelligen
 Klang besonders wertvoll, weil sich für den Hörer ein viel besserer
@@ -97,7 +97,7 @@ gedrungen ist: Die neue Orgel wäre insgesamt ein Gewinn für alle Art der
 Kirchenmusik im Dom. „Kommen sie!“ Der Kantor eilt zur großen
 Hauptorgel an der Rückseite. Lässt kurz die Pfeifen aufdröhnen durch Mark
 und Bein. Er könne künftig alle drei elektronisch miteinander verbundenen
-Orgeln gleichzeitig spielen – von einem Spieltisch aus, sagt er. 57&nbsp;plus die
+Orgeln gleichzeitig spielen&nbsp;– von einem Spieltisch aus, sagt er. 57&nbsp;plus die
 31&nbsp;Register der neuen Orgel. Schön. Aber: Wenn schon eine Orgel derart Alarm
 macht, sind denn dann drei überhaupt auszuhalten?
 

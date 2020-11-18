@@ -18,7 +18,7 @@ resources:
 ---
 
 Schon lange soll der Dom eine zusätzliche Orgel bekommen. Jetzt nimmt das
-Projekt immer mehr Gestalt an – und der neu gegründete Orgelbauverein
+Projekt immer mehr Gestalt an&nbsp;– und der neu gegründete Orgelbauverein
 bittet um weitere Spenden.
 
 {{< figure name="header" attribution="Peter Sierigk" attribution-link="https://www.petersierigk.de/" >}}
@@ -47,7 +47,7 @@ einig: So eine Zwillings-Orgel soll es werden, mit 31&nbsp;Registern und
 2260&nbsp;Pfeifen.
 
 Wie Domkantor Gerd-Peter Münden erläutert, werden die beiden Orgelteile
-rechts und links hinter dem Siebenarmigen Leuchter stehen – frei im Raum.
+rechts und links hinter dem Siebenarmigen Leuchter stehen&nbsp;– frei im Raum.
 Die silbernen Pfeifen sollen den Leuchter wie Engelsflügel umschweben und
 umarmen. Inspiriert sei die Form vom wellenförmigen Dach der Hamburger
 Elbphilharmonie. Die Pfeifen werden nicht auf dem Boden stehen, sondern
@@ -55,12 +55,12 @@ sie hängen. Bronzefarbene Unterteile sollen einen Bezug zum Leuchter
 herstellen. „Vom Mittelschiff aus wird man vom Orgelkörper wenig sehen“,
 sagt Münden. „Das Weltklasse-Panorama des Doms bleibt also erhalten!“
 Zugleich habe die Denkmalpflege eindeutig signalisiert: Eigentlich ist der
-Dom zu leer – früher gab es zum Beispiel viel mehr Instrumente. Bis zu sechs
+Dom zu leer&nbsp;– früher gab es zum Beispiel viel mehr Instrumente. Bis zu sechs
 Orgeln seien es zeitweise gewesen.
 
 Der fahrbare Spieltisch soll bei Konzerten auf der Ebene vor dem Leuchter
 positioniert werden, also direkt beim Chor. Münden zufolge wird diese Ebene
-noch etwas nach außen verlängert – dort könne der Spieltisch dann
+noch etwas nach außen verlängert&nbsp;– dort könne der Spieltisch dann
 unauffällig parken, wenn er nicht gebraucht werde. Der Domkantor
 schwärmt auch von der Technik: Die beiden neuen Orgel-Elemente sollen mit
 der bestehenden Orgel verbunden werden. „Das abwechselnde Spiel 
@@ -75,7 +75,7 @@ bestimmte Teile des Doms mit Klang füllen. Das ist weltweit einmalig.“
 So sei es künftig auch möglich, Taufen am Imervardkreuz und
 Veranstaltungen im Hohen Chor gezielt zu bespielen.
 
-Ein Großprojekt, das den Dom verändern wird – und das viel Geld kostet.
+Ein Großprojekt, das den Dom verändern wird&nbsp;– und das viel Geld kostet.
 Insgesamt sind 800.000&nbsp;Euro veranschlagt. Martina Krug, die Vorsitzende
 des Orgelbauvereins, betont: „Die Zwillings-Orgel wird nicht aus
 Kirchensteuern finanziert, sondern nur über Spenden.“
@@ -89,17 +89,17 @@ kräftig spielen, sagt Martina Krug. Im zweiten Abschnitt soll die andere
 Für den ersten Abschnitt werden 480.000&nbsp;Euro benötigt. Zieht man die
 schon vorhandenen Spenden ab, sind hier also noch 150.000&nbsp;Euro offen.
 „Wenn dieses Geld bis zum Ende dieses Jahres eingeht, dann können wir
-dem Orgelbauer den Auftrag erteilen – und dann kann der erste Teil der
+dem Orgelbauer den Auftrag erteilen&nbsp;– und dann kann der erste Teil der
 Orgel zu Weihnachten&nbsp;2022 im Dom erklingen.“
 
 Und: Wenn in der Zwischenzeit auch das Geld für den zweiten Orgel-Teil
 zusammenkommt, also weitere 320.000&nbsp;Euro, dann würde der Orgelbauer
 diesen sofort noch bauen, sagt Martina Krug. Andernfalls wäre eine erneute
-Wartezeit nötig – und die liege bei drei bis vier Jahren.
+Wartezeit nötig&nbsp;– und die liege bei drei bis vier Jahren.
 
 Wer spenden will, könne dies zum Beispiel über Pfeifenpatenschaften tun.
 „Jede Spende ist willkommen. Wir alle vermehren damit Schönes. Der Dom
-wurde damals so wertig gebaut – und wir führen das jetzt fort. Außerdem ist
+wurde damals so wertig gebaut&nbsp;– und wir führen das jetzt fort. Außerdem ist
 dieses Projekt ein Zeichen der Wertschätzung für die großartige Arbeit, die
 hier an der Domsingschule mit mehr als 600&nbsp;Menschen, vor allem Kindern
 und Jugendlichen, Woche für Woche geleistet wird.“

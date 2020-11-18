@@ -19,7 +19,7 @@ resources:
       Institut für Stahlbau (rechts), 
       hat die Modelle in 3-D-Technik ausgedruckt. 
       Links: Professor Klaus Thiele.
----tu-druckt-modelle-der-geplanten-dom-orgeln-in-3-d-technik
+---
 
 Vier Tage hat der 3-D-Drucker ohne Unterlass vor sich hingearbeitet. Dann
 war das Modell der Chor-Orgeln für den Dom fertig. Ein Anschauungsobjekt.
@@ -47,8 +47,8 @@ Zwillings-Orgeln nach englischem Vorbild geplant.
 
 Das 1:50-Modell soll nun der Landesdenkmalpflege und allen Beteiligten vor
 Augen führen, wie die zwei Instrumente im Raum wirken könnten. Die
-kleinen 3-D-Orgeln im Spielzeugformat – übrigens in sechstündiger Arbeit
-handcoloriert – sind inzwischen in das Dom-Querschnitts-Modell integriert,
+kleinen 3-D-Orgeln im Spielzeugformat&nbsp;– übrigens in sechstündiger Arbeit
+handcoloriert&nbsp;– sind inzwischen in das Dom-Querschnitts-Modell integriert,
 das Besuchern Ausmaße und Raumaufteilung von Heinrichs Stiftskirche zur
 Erbauungszeit aufzeigt. Es steht im Seitenschiff unterhalb des Hohen Chores
 nahe dem Imervard-Kreuz.

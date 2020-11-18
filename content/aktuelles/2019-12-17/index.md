@@ -3,7 +3,7 @@ title: "Chororgel für Braunschweiger Dom soll hochwertig werden"
 date: 2019-12-17
 summary: |
   Dompredigerin Cornelia Götz spricht im Interview mit unserer
-  Zeitung über die geplante Chor-Orgel – und wieviel Geld noch fehlt.
+  Zeitung über die geplante Chor-Orgel&nbsp;– und wieviel Geld noch fehlt.
 resources:
 - name: article
   src: chororgel-fuer-braunschweiger-dom-soll-hochwertig-werden.pdf
@@ -14,12 +14,12 @@ resources:
   params:
     caption: |
       Dompredigerin Cornelia Götz schaut sich durch Vitrinenglas 
-      das Modell der geplanten Chor-Orgel an – und ist voller Vorfreude. 
+      das Modell der geplanten Chor-Orgel an&nbsp;– und ist voller Vorfreude. 
       Bis Januar müssen aber noch rund 115.000&nbsp;Euro 
       an Spenden eingeworben werden.
 ---
 
-Die Domkirche St. Blasii zu Braunschweig steht zwischen Dom- und
+Die Domkirche St.&nbsp;Blasii zu Braunschweig steht zwischen Dom- und
 Burgplatz nicht nur im Herzen der Stadt, sondern ist auch im Herzen vieler
 Bewohner unserer Löwenstadt fest verankert. Das Wort der Dompredigerin
 Cornelia Götz wird gehört und hat Gewicht. Nicht zuletzt haben die Chöre
@@ -59,7 +59,7 @@ Gottesdienste ebnen, nicht geeignet. Das E-Piano oder die kleine
 Truhenorgel, die stattdessen zur Begleitung der Chöre verwendet werden,
 sind nur als lange genutzte Provisorien zu sehen. Und den meisten wird
 schon aufgefallen sein, dass wir bei Konzerten die Sitze in Richtung Orgel
-umdrehen – das machen wir nicht aus Lust und Laune, sondern aus
+umdrehen&nbsp;– das machen wir nicht aus Lust und Laune, sondern aus
 akustischen Gründen.
 
 **Aber die Kosten für eine Chor-Orgel, wie sie jetzt geplant ist, sind
@@ -68,13 +68,13 @@ akustischen Gründen.
 
 Die Menschen haben schon seit vielen Jahrhunderten immer wieder schöne
 und besondere Dinge Gott zur Ehre in ihre Kirchen gebaut und dafür
-gespendet, seien es Kunstobjekte, Wand- und Deckenmalereien – oder eben
+gespendet, seien es Kunstobjekte, Wand- und Deckenmalereien&nbsp;– oder eben
 Instrumente.
 Kunsthistoriker sagen uns, dass man auch romanische Räume möblieren
 muss. Wir sind uns der Verantwortung, die wir mit dem Einbau einer Chor-
 Orgel für diese und kommende Generationen übernehmen, bewusst und
 haben uns daher von Experten beraten lassen, um für diesen besonderen Ort
-St. Blasii, der zum nationalen Kulturerbe gehört, eine passende hochwertige
+St.&nbsp;Blasii, der zum nationalen Kulturerbe gehört, eine passende hochwertige
 Lösung zu finden. Das war ein wertvoller Prozess.
 
 **Wieviel Geld ist denn schon zusammengekommen, wieviel wird
@@ -135,8 +135,8 @@ Handschrift unserer Zeit in den Dom einzutragen. Professor Nußbaum hat
 uns gewarnt, mit den perfekten Achsen konkurrieren oder sie ergänzen zu
 wollen, darum wird die Orgel auf einem Absatz weder mittig noch
 rechtwinklig stehen. Die geplante Chor-Orgel ragt nur wenig in den Hohen
-Chor hinein und wird – nach dem zweiten Bauabschnitt, für den wir nach
-Beginn des ersten anfangen werden zu sammeln – den vergleichsweise zarten
+Chor hinein und wird&nbsp;– nach dem zweiten Bauabschnitt, für den wir nach
+Beginn des ersten anfangen werden zu sammeln&nbsp;– den vergleichsweise zarten
 siebenarmigen Leuchter wie zwei Flügelspitzen einrahmen.
 
 <small>
