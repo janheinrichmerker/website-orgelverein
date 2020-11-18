@@ -1,5 +1,5 @@
 ---
-title: Aktuelles
+title: Aktuelles & Pressemeldungen
 menu:
   main:
     weight: 5
