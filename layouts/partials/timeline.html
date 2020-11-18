@@ -10,10 +10,15 @@
             </h3>
             <p>
                 {{- .Summary | plainify -}}
-                {{- if .Truncated -}}
+                {{- if (.Truncated) -}}
                 <br>
                 <a href="{{ .RelPermalink }}" title="Ganzer Eintrag">
                     Weiter lesen
+                </a>
+                {{- else if (ne .Summary .Content) -}}
+                <br>
+                <a href="{{ .RelPermalink }}" title="Ganzer Eintrag">
+                    Mehr lesen
                 </a>
                 {{- end -}}
             </p>
