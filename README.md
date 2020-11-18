@@ -4,3 +4,7 @@
 # Orgelverein am Braunschweiger Dom e.V. website
 
 The _Orgelbauverein am Braunschweiger Dom e.V._ set itself the goal, to fund the choir organ for the _Braunschweiger Dom_.
+
+## License
+
+This repository is [not licensed](https://choosealicense.com/no-permission/), meaning you have to ask for permission if you want to use our code and/or content.
