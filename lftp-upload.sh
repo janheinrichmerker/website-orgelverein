@@ -6,7 +6,7 @@ echo "$key" >"$lftp/key"
 
 cat >"$lftp/script" <<EOL
 set sftp:connect-program ssh -i $lftp/key -v -oStrictHostKeyChecking=accept-new
-open -u $user sftp://$host
+open -u $user, sftp://$host
 local pwd
 local ls
 pwd
