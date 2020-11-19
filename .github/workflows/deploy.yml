@@ -12,6 +12,9 @@ jobs:
     steps:
     - name: "📥 Check-out"
       uses: actions/checkout@v2
+      with:
+        lfs: true
+        submodules: true
     - name: "🧰 Install LFTP"
       run: sudo apt-get install lftp
     - name: "🧰 Install Hugo"
