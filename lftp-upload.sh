@@ -2,12 +2,12 @@
 
 lftp=$(mktemp -d)
 
-echo "$key" > "$lftp/key"
+echo "$key" >"$lftp/key"
 
-cat > "$lftp/script" << EOL
+cat >"$lftp/script" <<EOL
 set sftp:connect-program ssh -i $lftp/key -l $user -oStrictHostKeyChecking=accept-new
 open sftp://$host
-mirror -eR public $path
+mirror -eRvvv public $path
 EOL
 
 lftp -f "$lftp/script"
