@@ -34,7 +34,7 @@ jobs:
     - name: "🏗 Build"
       run: hugo
     - name: "🚀 Deploy via SFTP"
-      run: ./lftp-upload.sh
+      run: ./sftp-upload.sh
       env:
         user: ${{ secrets.DEPLOY_USER }}
         key: ${{ secrets.DEPLOY_KEY }}
