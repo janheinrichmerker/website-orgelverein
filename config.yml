@@ -17,6 +17,8 @@ sitemap:
   priority: 0.5
   filename: "sitemap.xml"
 
+theme:
+- hugo-video
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
