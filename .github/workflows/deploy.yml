@@ -36,7 +36,7 @@ jobs:
     - name: "🚀 Deploy via SFTP"
       run: ./lftp-upload.sh
       env:
-        user: "${{ secrets.DEPLOY_USER }}"
-        key: "${{ secrets.DEPLOY_KEY }}"
-        host: "${{ secrets.DEPLOY_TARGET_HOST }}"
-        path: "${{ secrets.DEPLOY_TARGET_PATH }}"
+        user: ${{ secrets.DEPLOY_USER }}
+        key: ${{ secrets.DEPLOY_KEY }}
+        host: ${{ secrets.DEPLOY_TARGET_HOST }}
+        path: ${{ secrets.DEPLOY_TARGET_PATH }}
