@@ -1,10 +1,9 @@
 name: Deploy
 
 on:
-  workflow_dispatch:
-#  push:
-#    branches:
-#    - master
+  push:
+    branches:
+    - master
 
 jobs:
   deploy:
@@ -35,17 +34,9 @@ jobs:
     - name: "🏗 Build"
       run: hugo
     - name: "🚀 Deploy via SFTP"
-      run: |
-        mkdir lftp
-
-        cat > lftp/key << EOL
-        ${{ secrets.DEPLOY_KEY }}
-        EOL
-
-        cat > lftp/script << EOL
-        set sftp:connect-program ssh -i lftp/key -l ${{ secrets.DEPLOY_USER }} -oStrictHostKeyChecking=accept-new
-        open sftp://${{ secrets.DEPLOY_TARGET_HOST }}
-        mirror -eR public ${{ secrets.DEPLOY_TARGET_PATH }}
-        EOL
-
-        lftp -f lftp/script
+      run: ./lftp-upload.sh
+      env:
+        user: "${{ secrets.DEPLOY_USER }}"
+        key: "${{ secrets.DEPLOY_KEY }}"
+        host: "${{ secrets.DEPLOY_TARGET_HOST }}"
+        path: "${{ secrets.DEPLOY_TARGET_PATH }}"
