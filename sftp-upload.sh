@@ -2,7 +2,7 @@
 
 set -e
 
-ssh-keyscan -H "$host" >> ~/.ssh/known_hosts
+ssh-keyscan -H "$host" >>~/.ssh/known_hosts
 
 temp=$(mktemp -d)
 
