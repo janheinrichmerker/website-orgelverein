@@ -1,10 +1,10 @@
 {{- $name := .Get 0 -}}
 {{- $found := false -}}
 {{- range $.Site.Data.organs -}}
-    {{- if eq .name $name -}}
-        {{- $found = true -}}
-        {{ lang.NumFmt 0 .value "- , ." }}&nbsp;€
-    {{- end -}}
+{{- if eq .name $name -}}
+{{- $found = true -}}
+{{ lang.NumFmt 0 .value "- , ." }} €
+{{- end -}}
 {{- end -}}
 {{- if not $found -}}
 {{ errorf "Organ %q was not found." $name }}

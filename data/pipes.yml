@@ -1,0 +1,32 @@
+- group: 1
+  price: 2500
+  color:
+    name: "Grün"
+    html: "#00dd00"
+  donated: 18
+  max: 56
+  lastUpdated: 2020-11-05
+- group: 2
+  price: 5000
+  color:
+    name: "Blau"
+    html: "#0000cd"
+  donated: 4
+  max: 28
+  lastUpdated: 2020-11-05
+- group: 3
+  price: 7500
+  color:
+    name: "Gelb"
+    html: "#ffa500"
+  donated: 0
+  max: 16
+  lastUpdated: 2020-11-05
+- group: 4
+  price: 10000
+  color:
+    name: "Rot"
+    html: "#ff0000"
+  donated: 6
+  max: 10
+  lastUpdated: 2020-11-05
