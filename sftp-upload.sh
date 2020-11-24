@@ -2,6 +2,10 @@
 
 set -e
 
+if [ ! -d ~/.ssh ]; then
+  mkdir -p ~/.ssh;
+fi
+touch ~/.ssh/known_hosts
 ssh-keyscan -H "$host" >>~/.ssh/known_hosts
 
 temp=$(mktemp -d)
