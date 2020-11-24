@@ -139,16 +139,7 @@ Verwenden Sie hierzu unser [Spendenformular][formular].
 Großspender der Prospektpfeifen erhalten auf Wunsch eine öffentliche namentliche Würdigung, 
 die kommenden Generationen im Dom erhalten bleibt.
 
-<dl id="frontal-pipes">
-    <dt>Preisgruppe&nbsp;1 <span class="color-bullet" style="color: #00dd00;">(grün)</span></dt>
-    <dd>2.500 €</dd>
-    <dt>Preisgruppe&nbsp;2 <span class="color-bullet" style="color: #0000cd;">(blau)</span></dt>
-    <dd>5.000 €</dd>
-    <dt>Preisgruppe&nbsp;3 <span class="color-bullet" style="color: #ffa500;">(gelb)</span></dt>
-    <dd>7.500 €</dd>
-    <dt>Preisgruppe&nbsp;4 <span class="color-bullet" style="color: #ff0000;">(rot)</span></dt>
-    <dd>10.000 €</dd>
-</dl>
+{{< pipes >}}
 
 {{< figure name="prospekt-frontansicht" >}}
 {{< figure name="prospekt-draufsicht" >}}
