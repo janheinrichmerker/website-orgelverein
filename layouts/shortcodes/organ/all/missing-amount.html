@@ -1,9 +1,9 @@
 {{- if $.Site.Data.organs -}}
-    {{- $sum := 0 -}}
-    {{- range $.Site.Data.organs -}}
-        {{- $sum = add $sum (sub .max .value) -}}
-    {{- end -}}
-    {{ lang.NumFmt 0 $sum "- , ." }}&nbsp;€
+{{- $sum := 0 -}}
+{{- range $.Site.Data.organs -}}
+{{- $sum = add $sum (sub .max .value) -}}
+{{- end -}}
+{{ lang.NumFmt 0 $sum "- , ." }} €
 {{- else -}}
 0 €
 {{- end -}}
