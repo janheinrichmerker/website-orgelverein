@@ -1,0 +1,47 @@
+{{- /*  hugo-audio shortcode
+/*
+/*    This file is part of hugo-audio shortcode.
+/*    A Hugo component shortcode to embed audio using the HTML audio element.
+/*
+/*    @copyright  @2020 Jan Heinrich Reimer
+/*    @source     https://github.com/heinrichreimer/hugo-audio
+/*    @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+/*
+*/ -}}
+
+{{- $audio_src := .Get "src" -}}
+{{- $audio_mp3 := "" -}}
+{{- $audio_dl := "" -}}
+{{- $width := "auto" -}}
+{{- $filenotfound := true -}}
+{{- $unsupportedfile := true -}}
+
+{{- /* Find all files with filename (without suffix) matching "src" parameter. */ -}}
+{{- $audio_files := (.Page.Resources.Match (printf "%s*" $audio_src)) -}}
+
+{{- /* Find in page bundle all valid audio files with matching name. */ -}}
+{{- with $audio_files -}}
+{{- $filenotfound = false -}}
+{{- range . -}}
+{{- if (in .MediaType.Suffixes "mp3") -}}
+{{- $unsupportedfile = false -}}
+{{- $audio_mp3 = . -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+
+{{- if $filenotfound -}}
+{{- /* No file of given name was found, we stop here. */ -}}
+{{- errorf "No file with filename %q found." $audio_src -}}
+{{- else if $unsupportedfile -}}
+{{- errorf "No valid audio file with filename %q found." $audio_src -}}
+{{- else -}}
+<audio {{ if ne
+       (.Get "controls") "false" }}controls {{ end }}preload="auto" style="width: {{ or (.Get "width") $width }};" {{ if eq (.Get "autoplay") "true" }}autoplay {{ end }}{{ if eq (.Get "loop") "true" }}loop {{ end }}{{ if eq (.Get "muted") "true" }}muted {{ end }}class="html-audio">
+{{- with $audio_mp3 }}
+<source src="{{ .RelPermalink }}" type="audio/mpeg" }}>
+{{- $audio_dl = . -}}
+{{- end }}
+<p>{{ i18n "audioUnsupported" $audio_dl | safeHTML}}</p>
+</audio>
+{{- end -}}

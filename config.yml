@@ -18,6 +18,7 @@ sitemap:
   filename: "sitemap.xml"
 
 theme:
+- hugo-audio
 - hugo-video
 markup:
   defaultMarkdownHandler: goldmark

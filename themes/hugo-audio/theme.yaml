@@ -1,0 +1,20 @@
+# theme.yaml configuration file
+
+name: Audio embedding
+license: GPLv3
+licenselink: https://github.com/heinrichreimer/hugo-audio/blob/master/LICENSE
+description: Hugo theme component to embed audios
+homepage: https://github.com/heinrichreimer/hugo-audio
+tags:
+- component
+- audio
+- embed
+- multilingual
+features:
+- simple audio embedding
+- multilingual (en, de)
+min_version: 0.40.0
+
+author:
+  name: Jan Heinrich Reimer
+  homepage: https://heinrich.reimer.family
