@@ -27,6 +27,6 @@
   color:
     name: "Rot"
     html: "#ff0000"
-  donated: 6
+  donated: 10
   max: 10
-  lastUpdated: 2020-11-05
+  lastUpdated: 2020-12-02
