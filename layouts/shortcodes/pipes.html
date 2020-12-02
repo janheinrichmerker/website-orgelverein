@@ -18,11 +18,39 @@
     <tbody>
     {{ range . }}
     <tr>
-        <td>Preisgruppe {{ .group }}</td>
+        <td>
+            {{- if ge .donated .max -}}
+            <del>{{- end -}}
+                Preisgruppe {{ .group }}
+                {{- if ge .donated .max -}}
+            </del>
+            {{- end -}}
+        </td>
         <td><span class="color-bullet" style='color:{{ .color.html }};'>({{ .color.name }})</span></td>
-        <td style="text-align:right;">{{ lang.NumFmt 0 .price "- , ." }}&nbsp;€</td>
-        <td style="text-align:center;">{{ .donated }}</td>
-        <td style="text-align:center;">{{ .max }}</td>
+        <td style="text-align:right;">
+            {{- if ge .donated .max -}}
+            <del>{{- end -}}
+                {{ lang.NumFmt 0 .price "- , ." }}&nbsp;€
+                {{- if ge .donated .max -}}
+            </del>
+            {{- end -}}
+        </td>
+        <td style="text-align:center;">
+            {{- if ge .donated .max -}}
+            <del>{{- end -}}
+                {{ .donated }}
+                {{- if ge .donated .max -}}
+            </del>
+            {{- end -}}
+        </td>
+        <td style="text-align:center;">
+            {{- if ge .donated .max -}}
+            <del>{{- end -}}
+                {{ .max }}
+                {{- if ge .donated .max -}}
+            </del>
+            {{- end -}}
+        </td>
     </tr>
     {{ end }}
     <tr>
