@@ -1,10 +1,11 @@
 ---
 title: "Interview des Radio Okerwelle"
-date: 2020-11-26 summary: "Interview mit Dr. Hagena zu aktuellen Hintergründen der Chororgel am Braunschweiger Dom"
+date: 2020-11-26
+summary: "Interview mit Dr. Hagena zu aktuellen Hintergründen der Chororgel am Braunschweiger Dom"
 resources:
-
-- name: beitrag src: radio-okerwelle.mp3 title: "Interview Radio Okerwelle"
-
+- name: beitrag
+  src: radio-okerwelle.mp3
+  title: "Interview Radio Okerwelle"
 ---
 
 {{< audio src="beitrag" autoplay="true" width="60%" >}}

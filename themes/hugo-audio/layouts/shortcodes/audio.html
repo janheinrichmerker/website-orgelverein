@@ -36,8 +36,7 @@
 {{- else if $unsupportedfile -}}
 {{- errorf "No valid audio file with filename %q found." $audio_src -}}
 {{- else -}}
-<audio {{ if ne
-       (.Get "controls") "false" }}controls {{ end }}preload="auto" style="width: {{ or (.Get "width") $width }};" {{ if eq (.Get "autoplay") "true" }}autoplay {{ end }}{{ if eq (.Get "loop") "true" }}loop {{ end }}{{ if eq (.Get "muted") "true" }}muted {{ end }}class="html-audio">
+<audio {{ if ne (.Get "controls") "false" }}controls {{ end }}preload="auto" style="width: {{ or (.Get "width") $width }};" {{ if eq (.Get "autoplay") "true" }}autoplay {{ end }}{{ if eq (.Get "loop") "true" }}loop {{ end }}{{ if eq (.Get "muted") "true" }}muted {{ end }}class="html-audio">
 {{- with $audio_mp3 }}
 <source src="{{ .RelPermalink }}" type="audio/mpeg" }}>
 {{- $audio_dl = . -}}
