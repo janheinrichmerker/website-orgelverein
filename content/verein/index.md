@@ -9,6 +9,9 @@ resources:
 - name: satzung
   src: satzung.pdf
   title: "Satzung"
+- name: register
+  src: register.pdf
+  title: "Auszug aus dem Vereinsregister des Amtsgerichts Braunschweig vom 07.08.2019"
 - name: beitritt
   src: beitritt.pdf
   title: "Beitrittserklärung"
@@ -31,7 +34,7 @@ Der engere Vorstand besteht aus:
 
 Weitere fachkundige Vereinsmitglieder sind im Vorstand als Beisitzer zu Fachthemen beratend tätig.
 
-Hier finden Sie die {{< download name="satzung" title="Satzung des Vereins" >}}.  
+Hier finden Sie die {{< download name="satzung" title="Satzung des Vereins" >}} und den {{< download name="register" title="Auszug aus dem Vereinsregister" >}}.  
 Wir freuen uns über neue Mitglieder mit diesem {{< download name="beitritt" title="Beitrittsformular" >}}.
 
 Wenn Sie spenden oder eine Pfeifenpatenschaft übernehmen möchten, 
