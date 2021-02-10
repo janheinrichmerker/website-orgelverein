@@ -21,8 +21,7 @@ $timeline-bullet-size: 1em;
 $font-family-serif: "Merriweather", "Georgia", "Times New Roman", serif;
 $font-family-sans: "Merriweather Sans", "Arial", sans-serif;
 
-@import "../node_modules/normalize-scss/sass/normalize";
-@include normalize();
+@import "../node_modules/normalize.css/normalize";
 @import "lightbox";
 
 * {

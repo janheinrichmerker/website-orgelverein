@@ -5,6 +5,34 @@
 
 The _Orgelbauverein am Braunschweiger Dom e.V._ set itself the goal, to fund the choir organ for the _Braunschweiger Dom_.
 
+## Intstallation
+
+1. Install [Hugo](https://gohugo.io/) and [Yarn](https://yarnpkg.com/).
+1. Install asset dependencies:
+
+    ```shell script
+    cd assets
+    yarn install
+    cd ..
+    ```
+
+1. Run development server locally:
+
+    ```shell script
+    hugo server
+    ```
+
+    The website is now accessible at [http://localhost:1313](http://localhost:1313).
+
+1. Build static website:
+
+    ```shell script
+    hugo
+    ```
+
+    You'll then find the static website in the `public` directory, ready to be deployed on any static web server.
+
+
 ## License
 
 This repository is [not licensed](https://choosealicense.com/no-permission/), meaning you have to ask for permission if you want to use our code and/or content.

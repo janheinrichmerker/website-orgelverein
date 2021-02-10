@@ -8,6 +8,6 @@
   "private": true,
   "dependencies": {
     "glightbox": "^2.0.4",
-    "normalize-scss": "^7.0.1"
+    "normalize.css": "^8.0.1"
   }
 }
