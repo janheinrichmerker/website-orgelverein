@@ -1,6 +1,8 @@
 ---
 title: Auswirkungen durch COVID-19
 date: 2020-05-17
+summary: |
+  Trotz Pandemie&nbsp;– Die erste Zwillingsorgel kommt wie geplant&nbsp;2023.
 ---
 
 Das aufgrund der Ansteckungsgefahr durch das SARS-CoV-2-Virus notwendige
