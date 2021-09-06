@@ -29,6 +29,13 @@ resources:
       Im Entwurf rahmen zwei „Engelsflügel“ den Leuchter links und rechts ein.
 ---
 
+<div class="notification">
+
+Am 11.09.2021 veranstalten wir einen „Tag der Orgel“ mit Kurzvorträgen von Orgelbaumeister Tilmann Späth, Orgelarchitekt Lothar Zickermann und Domkantor Gerd-Peter Münden.
+[Mehr lesen]({{< relref "/aktuelles/2021-09-03/index.md" >}})
+
+</div>
+
 ## Eine Orgel für den Braunschweiger Dom
 
 {{< figure name="tag-der-domsingschule" >}}
