@@ -27,14 +27,6 @@ resources:
   params:
     caption: |
       Im Entwurf rahmen zwei „Engelsflügel“ den Leuchter links und rechts ein.
-- name: logo-eckensberger
-  src: logo-eckensberger.png
-  title: Logo der Eckensberger Stiftung
-  params:
-    caption: |
-      Die Eckensberger Stiftung fördert den Orgelbau.
-    attribution: Hans und Helga Eckensberger Stiftung
-    attributionLink: https://www.eckensberger-stiftung.de/
 ---
 
 ## Eine Orgel für den Braunschweiger Dom
@@ -78,8 +70,6 @@ für ihre Persönlichkeitsentwicklung und soziale Kompetenz.
 Hier fehlt heute das Instrument, das die Stimmen adäquat unterstützt.
 
 ## Spenden Sie!
-
-{{< figure name="logo-eckensberger" >}}
 
 Vergleichbare Projekte anderer großer Kirchen haben gezeigt, 
 dass durch persönliche Spenden unverzichtbare finanzielle Beiträge zur Realisierung 
