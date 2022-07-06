@@ -11,9 +11,7 @@ The _Orgelbauverein am Braunschweiger Dom e.V._ set itself the goal, to fund the
 1. Install asset dependencies:
 
     ```shell script
-    cd assets
-    yarn install
-    cd ..
+    yarn --cwd assets
     ```
 
 1. Run development server locally:
