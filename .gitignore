@@ -10,6 +10,7 @@
 hugo.exe
 hugo.darwin
 hugo.linux
+.hugo_build.lock
 
 ### JetBrains+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
