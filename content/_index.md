@@ -31,6 +31,13 @@ resources:
 
 ## Eine Orgel für den Braunschweiger Dom
 
+<div class="notification">
+
+Die Zwillings-Orgel kommt – beide „Flügel“ konnten beauftragt werden!
+[Mehr lesen]({{< relref "/aktuelles/2022-07-21/index.md" >}})
+
+</div>
+
 {{< figure name="tag-der-domsingschule" >}}
 
 Der [Braunschweiger Dom](https://braunschweigerdom.de/) ist eine lebendige Gemeindekirche 
