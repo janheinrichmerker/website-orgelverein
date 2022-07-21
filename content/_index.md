@@ -70,6 +70,7 @@ für ihre Persönlichkeitsentwicklung und soziale Kompetenz.
 Hier fehlt heute das Instrument, das die Stimmen adäquat unterstützt.
 
 ## Spenden Sie!
+
 Vergleichbare Projekte anderer großer Kirchen haben gezeigt, 
 dass durch persönliche Spenden unverzichtbare finanzielle Beiträge zur Realisierung 
 eines so ambitionierten Projekts eingeworben werden können. 

@@ -121,6 +121,15 @@ body {
         position: relative;
         page-break-inside: avoid;
 
+        // Solidarity banner for Ukraine.
+        box-shadow:
+        0 5px 0 0 #0656b7,
+        0 10px 0 0 #fdd536,
+        0 13px 1px -2px rgba(0, 0, 0, 0.2),
+        0 12px 2px 0 rgba(0, 0, 0, 0.14),
+        0 11px 5px 0 rgba(0, 0, 0, 0.12);
+        margin-bottom: 10px;
+
         @media print {
             color: $color;
             box-shadow: none;

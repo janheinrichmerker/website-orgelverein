@@ -30,7 +30,7 @@ Der engere Vorstand besteht aus:
 - Martina Krug _(Vorsitzende)_
 - Steffen Schwarz _(stellvertretender Vorsitzender)_
 - Dr. Christine Eichner _(Schriftführerin)_
-- Annette Keil _(Schatzmeisterin)_
+- Frank Schreiber _(Schatzmeister)_
 
 Weitere fachkundige Vereinsmitglieder sind im Vorstand als Beisitzer zu Fachthemen beratend tätig.
 
