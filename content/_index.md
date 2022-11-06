@@ -33,8 +33,8 @@ resources:
 
 <div class="notification">
 
-Die Zwillings-Orgel kommt – beide „Flügel“ konnten beauftragt werden!
-[Mehr lesen]({{< relref "/aktuelles/2022-07-21/index.md" >}})
+Die Zwillings-Orgel kommt! – Benefizkonzert am 29.11.2022.
+[Mehr lesen]({{< relref "/aktuelles/2022-10-29/index.md" >}})
 
 </div>
 
