@@ -31,13 +31,6 @@ resources:
 
 ## Eine Orgel für den Braunschweiger Dom
 
-<div class="notification">
-
-Die Zwillings-Orgel kommt! – Benefizkonzert am 29.11.2022.
-[Mehr lesen]({{< relref "/aktuelles/2022-10-29/index.md" >}})
-
-</div>
-
 {{< figure name="tag-der-domsingschule" >}}
 
 Der [Braunschweiger Dom](https://braunschweigerdom.de/) ist eine lebendige Gemeindekirche 
