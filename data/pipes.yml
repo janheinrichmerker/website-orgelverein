@@ -3,25 +3,25 @@
   color:
     name: "Grün"
     html: "#00dd00"
-  donated: 21
-  max: 56
-  lastUpdated: 2021-12-15
+  donated: 23
+  max: 54
+  lastUpdated: 2023-01-29
 - group: 2
   price: 5000
   color:
     name: "Blau"
     html: "#0000cd"
-  donated: 4
-  max: 28
-  lastUpdated: 2020-11-05
+  donated: 5
+  max: 27
+  lastUpdated: 2023-01-29
 - group: 3
   price: 7500
   color:
     name: "Gelb"
     html: "#ffa500"
-  donated: 0
-  max: 16
-  lastUpdated: 2020-11-05
+  donated: 1
+  max: 15
+  lastUpdated: 2023-01-29
 - group: 4
   price: 10000
   color:
