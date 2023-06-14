@@ -19,9 +19,17 @@ resources:
     caption: |
       Logo der [Eckensberger Stiftung](https://www.eckensberger-stiftung.de/)
     attribution: Hans und Helga Eckensberger Stiftung
+- name: kulturbesitz
+  src: logo-stiftung-braunschweigischer-kulturbesitz.png
+  title: Stiftung Braunschweigischer Kulturbesitz
+  params:
+    caption: |
+      Logo der [Stiftung Braunschweigischer Kulturbesitz](https://sbk-bs.de/)
+    attribution: Stiftung Braunschweigischer Kulturbesitz
 ---
 
 Wir danken folgenden Stiftungen für ihre Unterstützung:
 
 {{< figure name="bs-land" >}}
 {{< figure name="eckensberger" >}}
+{{< figure name="kulturbesitz" >}}
