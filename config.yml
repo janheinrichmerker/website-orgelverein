@@ -11,6 +11,7 @@ paginatePath: "" # Append page number to list path directly.
 disableKinds:
 - taxonomies
 - taxonomyTerm
+buildFuture: true
 
 sitemap:
   changeFreq: "monthly"
