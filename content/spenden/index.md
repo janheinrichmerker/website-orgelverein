@@ -88,6 +88,19 @@ IBAN: _DE75 2505 0000 0201 3989 71_, bei der Braunschweigischen Landessparkasse 
 
 Verwenden Sie hierzu unser [Spendenformular][formular].
 
+## Fehlende Register
+
+| Register                               |         Preis |
+|----------------------------------------|--------------:|
+| Double Trumpet                         | 14.280&nbsp;€ |
+| Clarionet                              | 12.376&nbsp;€ |
+| Contra Hautboy                         | 16.660&nbsp;€ |
+| Cornopean                              | 12.138&nbsp;€ |
+| Clairon                                | 12.138&nbsp;€ |
+| Tuba mirabilis                         | 27.370&nbsp;€ |
+| Pedal Gehäuse, Windanlage und Windlade |  9.520&nbsp;€ |
+| Pedal Open Diapason 16'                | 22.182&nbsp;€ |
+
 ## Innenpfeifen, das Herz der Orgel
 
 <table id="inner-pipes">
