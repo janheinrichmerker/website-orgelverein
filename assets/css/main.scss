@@ -500,6 +500,34 @@ body {
                         }
                     }
                 }
+
+                &.gallery {
+                    display: grid;
+                    max-width: none;
+                    max-height: none;
+                    margin: 1em auto;
+                    border: 1px solid $image-border-color;
+                    border-radius: 0.25em;
+                    padding: 0.5em;
+                    grid-template-columns: 1fr 1fr;
+                    justify-items: stretch;
+                    align-items: stretch;
+
+                    p {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        justify-items: stretch;
+                        align-items: stretch;
+                        margin: 0;
+                    }
+
+                    img {
+                        display: block;
+                        border: 0;
+                        border-radius: 0;
+                        padding: 0;
+                    }
+                }
             }
 
             .notification p {
