@@ -1,7 +1,7 @@
 ---
-title: "Die neue Chororgel entsteht: Tag 1"
-date: 2023-06-26
-summary: Die neue Chororgel entsteht! Hier sehen Sie den Baufortschritt vom Tag 1.
+title: "Die neue Chororgel entsteht: Tag 2"
+date: 2023-06-27
+summary: Die neue Chororgel entsteht! Hier sehen Sie den Baufortschritt vom Tag 2.
 resources:
 - name:  aufbau
   src:   aufbau.mp4
@@ -46,7 +46,7 @@ resources:
 
 {{< video src="aufbau" >}}
 
-Die neue Chororgel entsteht! Hier sehen Sie den Baufortschritt vom Tag 1.
+Die neue Chororgel entsteht! Hier sehen Sie den Baufortschritt vom Tag 2.
 
 <figure class="gallery">
 
