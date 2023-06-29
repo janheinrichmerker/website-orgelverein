@@ -512,6 +512,7 @@ body {
                     grid-template-columns: 1fr 1fr;
                     justify-items: stretch;
                     align-items: stretch;
+                    float: none;
 
                     p {
                         display: grid;
@@ -878,6 +879,14 @@ body {
                             color: $color;
                         }
                     }
+                }
+            }
+
+            a {
+                color: inherit;
+
+                &:hover {
+                    color: $color-accent;
                 }
             }
         }
