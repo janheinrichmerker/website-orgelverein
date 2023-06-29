@@ -71,4 +71,4 @@ Die neue Chororgel entsteht! Hier sehen Sie den Baufortschritt vom Tag 2.
 
 </figure>
 
-Weitere 3D-Bilder finden Sie [hier](https://gopro.com/v/WlyK1KNoBB8Wn).
+Weitere 3D-Bilder des Tages finden Sie [hier](https://gopro.com/v/WlyK1KNoBB8Wn).
