@@ -23,7 +23,9 @@ Firma die Orgel in den kommenden zwei Jahren bauen wird. Ebenfalls zu Gast war L
 Hannover, als Orgelarchitekt der Mann, der für das äußere Erscheinungsbild der Orgel und ihre Eingliederung in das 
 bestehende Ensemble der Kunstwerke verantwortlich ist. Der dritte Gast war der musikalische Hausherr des Doms, 
 Gerd-Peter Münden, der die Idee und die Notwendigkeit des Spenden-Projektes darlegte. Immerhin gibt es im Westschiff des
-Doms bereits die große Orgel. Auch die Finanzen waren ein wichtiges Thema. Denn die neue Orgel kostet voraussichtlich 
+Doms bereits die große Orgel.
+
+Auch die Finanzen waren ein wichtiges Thema. Denn die neue Orgel kostet voraussichtlich 
 einen Betrag, der von einer Million nicht mehr weit entfernt ist. Er soll aus Spenden finanziert werden. Erörtert wurde
 auch, wie sich das neue Instrument in den Raum und seine Kunstwerke einfügen wird. Auf der Homepage des Orgelbauvereins 
 werden Sinn und Zweck der neuen Orgel erklärt: „Die neue Orgel soll die Chöre angemessen begleiten. Auftrittsort der 
@@ -36,11 +38,12 @@ Türme sollen frei stehen und sichtbar installiert werden, ohne allerdings die H
 Leuchters und weiter zur Apsis zu stören. Auch die Raumarchitektur soll von der neuen Orgel nicht beeinträchtigt werden.
 Die ganze neue Orgelanlage sei auf Eleganz und Leichtigkeit ausgerichtet, heißt es. Die neue Chororgel ist derzeit auf
 31 Register mit 2260 Pfeifen konzipiert. Dazu kommt ein beweglicher Spieltisch, der im Hohen Chor frei verschoben werden
-kann. Sowohl von diesem Spieltisch als auch vom Spieltisch der Hauptorgel werden alle Orgeln im Dom anspielbar sein. Die
-Inspiration für die Orgel hatte Gerd-Peter Münden auf einer Konzertreise im englischen Cardiff. Dort hatte er die 
+kann. Sowohl von diesem Spieltisch als auch vom Spieltisch der Hauptorgel werden alle Orgeln im Dom anspielbar sein.
+
+Die Inspiration für die Orgel hatte Gerd-Peter Münden auf einer Konzertreise im englischen Cardiff. Dort hatte er die 
 Möglichkeit, die Orgel in der John’s Parish Church zu spielen, eine Begleitorgel für Jugendchöre. Die zarten Pastelltöne
 der Orgel haben Münden überzeugt, und so wird ein Großteil der Orgelpfeifen in Braunschweig eine Kopie ihrer Vorbilder
-in Cardiff werden. Die Einweihung der Orgel ist für die Adventszeit 2023 gehplant.
+in Cardiff werden. Die Einweihung der Orgel ist für die Adventszeit 2023 geplant.
 
 <small>
 
