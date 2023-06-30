@@ -16,7 +16,7 @@
 {{- end -}}
 {{- with $resource -}}
 {{- if eq .ResourceType "image" -}}
-<figure id="organ-layout">
+<figure id="organ-layout" class="full-width">
     <div id="map">
         {{- with .Resize "600x" -}}
         <img src="{{ .RelPermalink }}"

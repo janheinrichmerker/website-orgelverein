@@ -30,24 +30,28 @@ resources:
   src:   aufbau-11.jpg
 ---
 
+<figure class="full-width">
+
 {{< video src="aufbau" >}}
+
+</figure>
+
+<div class="clearfix"></div>
 
 Die neue Chororgel entsteht! Hier sehen Sie den Baufortschritt vom Tag 3.
 
-<figure class="gallery">
-
-{{< thumb "aufbau-01" >}}
-{{< thumb "aufbau-02" >}}
-{{< thumb "aufbau-03" >}}
-{{< thumb "aufbau-04" >}}
-{{< thumb "aufbau-05" >}}
-{{< thumb "aufbau-06" >}}
-{{< thumb "aufbau-07" >}}
-{{< thumb "aufbau-08" >}}
-{{< thumb "aufbau-09" >}}
-{{< thumb "aufbau-10" >}}
-{{< thumb "aufbau-11" >}}
-
-</figure>
+{{< gallery >}}
+{{< gallery-image "aufbau-01" >}}
+{{< gallery-image "aufbau-02" >}}
+{{< gallery-image "aufbau-03" >}}
+{{< gallery-image "aufbau-04" >}}
+{{< gallery-image "aufbau-05" >}}
+{{< gallery-image "aufbau-06" >}}
+{{< gallery-image "aufbau-07" >}}
+{{< gallery-image "aufbau-08" >}}
+{{< gallery-image "aufbau-09" >}}
+{{< gallery-image "aufbau-10" >}}
+{{< gallery-image "aufbau-11" >}}
+{{</ gallery >}}
 
 Weitere 3D-Bilder des Tages finden Sie [hier](https://gopro.com/v/5W7aLdN527dr8).

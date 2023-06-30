@@ -1,0 +1,22 @@
+{{- $inner := .Inner -}}
+{{- $caption := .Get "caption" -}}
+{{- $attribution := .Get "attribution" -}}
+{{- $attributionLink := .Get "attribution-link" -}}
+<figure class="gallery full-width">
+    {{- $inner -}}
+    {{- if or $caption $attribution -}}
+    <figcaption>
+        {{- markdownify $caption -}}
+        {{- if and $caption $attribution -}}&nbsp;{{- end -}}
+        {{- with $attribution -}}&nbsp;
+        <small>
+            (Foto:&nbsp;
+            {{- with $attributionLink -}}<a href="{{.}}">{{- end -}}
+            {{- . -}}
+            {{- if $attributionLink -}}</a>{{- end -}}
+            )
+        </small>
+        {{- end -}}
+    </figcaption>
+    {{ end }}
+</figure>
