@@ -1,6 +1,6 @@
 ---
 title: "Die neue Chororgel entsteht: Tag 6"
-date: 2023-07-01
+date: 2023-07-03
 summary: Die neue Chororgel entsteht! Hier sehen Sie den Baufortschritt vom Tag 6.
 resources:
 - name:  aufbau
@@ -50,5 +50,3 @@ Die neue Chororgel entsteht! Hier sehen Sie den Baufortschritt vom Tag 6.
 {{< gallery-image "aufbau-09" >}}
 {{< gallery-image "aufbau-10" >}}
 {{</ gallery >}}
-
-Weitere 3D-Bilder des Tages finden Sie [hier](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
