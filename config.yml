@@ -9,8 +9,7 @@ enableRobotsTXT: true
 paginate: 5
 paginatePath: "" # Append page number to list path directly.
 disableKinds:
-- taxonomies
-- taxonomyTerm
+- taxonomy
 buildFuture: true
 
 sitemap:
