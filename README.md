@@ -1,4 +1,4 @@
-[![CI](https://img.shields.io/github/workflow/status/orgelverein/website/CI?style=flat-square)](https://github.com/orgelverein/website/actions?query=workflow%3ACI)
+[![CI](https://img.shields.io/github/actions/workflow/status/orgelverein/website/ci.yml?branch=main&style=flat-square)](https://github.com/orgelverein/website/actions/workflows/ci.yml)
 [![Issues](https://img.shields.io/github/issues/orgelverein/website?style=flat-square)](https://github.com/orgelverein/website/issues)
 
 # Orgelverein am Braunschweiger Dom e.V. website
