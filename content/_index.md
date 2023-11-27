@@ -31,6 +31,13 @@ resources:
 
 ## Eine Orgel für den Braunschweiger Dom
 
+<div class="notification">
+
+Am 01.12. wird die neue Chororgel feierlich eingeweiht.
+Verfolgen Sie die Orgelweihe live auf [YouTube](https://www.youtube.com/live/xAGsy1zXzzM?si=uxKxwgFTqgIANo6e).
+
+</div>
+
 {{< figure name="tag-der-domsingschule" >}}
 
 Der [Braunschweiger Dom](https://braunschweigerdom.de/) ist eine lebendige Gemeindekirche 
