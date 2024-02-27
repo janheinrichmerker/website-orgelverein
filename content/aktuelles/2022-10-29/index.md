@@ -33,11 +33,6 @@ Weitere Konzerte im Braunschweiger Dom, die seit einer Woche im Vorverkauf sind:
 
 Tickets für alle Veranstaltungen gibt es direkt im Dom und online unter [www.braunschweigerdom.de](https://www.braunschweigerdom.de).
 
-
-Foo bar
-
-Foo bar
-
 <small>
 
 [Online-Artikel](https://braunschweiger-zeitung.de/article236379805.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 08.09.2022.
