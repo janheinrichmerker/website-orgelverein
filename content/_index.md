@@ -33,6 +33,12 @@ resources:
 
 <div class="notification">
 
+[Hier]({{< relref "/aktuelles/2023-12-06/index.md" >}}) können Sie ab sofort das Begleitbuch „Die neue Chororgel im Braunschweiger Dom“ erwerben.
+
+</div>
+
+<div class="notification">
+
 Auf [YouTube](https://youtube.com/watch?v=xAGsy1zXzzM) können Sie sich nun die Aufzeichnung der feierlichen Orgelweihe ansehen.
 
 </div>
