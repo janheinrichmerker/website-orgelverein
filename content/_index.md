@@ -33,8 +33,7 @@ resources:
 
 <div class="notification">
 
-Am 01.12. wird die neue Chororgel feierlich eingeweiht.
-Verfolgen Sie die Orgelweihe live auf [YouTube](https://www.youtube.com/live/xAGsy1zXzzM?si=uxKxwgFTqgIANo6e).
+Auf [YouTube](https://youtube.com/watch?v=xAGsy1zXzzM) können Sie sich nun die Aufzeichnung der feierlichen Orgelweihe ansehen.
 
 </div>
 
