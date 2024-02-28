@@ -10,14 +10,14 @@ resources:
   src: logo-stiftung-braunschweiger-land.jpg
   title: Stiftung Braunschweiger Land
   params:
-    caption: Logo der [Stiftung Braunschweiger Land](http://stiftungbraunschweigerland.de/)
+    caption: Logo der [Stiftung Braunschweiger Land](https://stiftungbraunschweigerland.de/)
     attribution: Stiftung Braunschweiger Land
 - name: eckensberger
   src: logo-eckensberger-stiftung.png
   title: Eckensberger Stiftung
   params:
     caption: |
-      Logo der [Eckensberger Stiftung](https://www.eckensberger-stiftung.de/)
+      Logo der [Eckensberger Stiftung](https://eckensberger-stiftung.de/)
     attribution: Hans und Helga Eckensberger Stiftung
 - name: kulturbesitz
   src: logo-stiftung-braunschweigischer-kulturbesitz.png

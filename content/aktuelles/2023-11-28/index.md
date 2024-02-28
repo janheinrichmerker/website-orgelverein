@@ -60,11 +60,11 @@ Orgelbaumeister Tilmann Späth (Freiburg): „Die neue Chororgel ist ein ganz be
 
 Orgeldesigner Lothar D. Zickermann (Burgdorf): „Die glänzenden Prospektpfeifen in der Frontseite der neuen Chororgel symbolisieren zwei Engelsflügel. So mögen denn die Herzen der Menschen voller Freude auf diesen Schwingen und begleitet von himmlischer Musik zur Verherrlichung des dreieinigen Gottes emporgehoben werden.“
 
-Eine Bildergalerie zur Orgel finden Sie unter [www.braunschweiger-zeitung.de](https://braunschweiger-zeitung.de/article240684812).
+Eine Bildergalerie zur Orgel finden Sie unter [www.braunschweiger-zeitung.de](https://braunschweiger-zeitung.de/article240684812/).
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article240684812) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 27.11.2023.
+[Online-Artikel](https://braunschweiger-zeitung.de/article240684812/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 27.11.2023.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

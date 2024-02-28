@@ -31,7 +31,7 @@ Weitere Konzerte im Braunschweiger Dom, die seit einer Woche im Vorverkauf sind:
 
 **Das Silvesterkonzert** bei Kerzenschein findet am Samstag, 31.&nbsp;Dezember, 21&nbsp;Uhr statt. Die festliche Musik zum Altjahresabend gestalten Tabea Wink&nbsp;(Blockflöte), Mitglieder des Göttinger Barockorchesters auf historischen Instrumenten und Kantor Witold Dulski an Orgel und Cembalo.
 
-Tickets für alle Veranstaltungen gibt es direkt im Dom und online unter [www.braunschweigerdom.de](https://www.braunschweigerdom.de).
+Tickets für alle Veranstaltungen gibt es direkt im Dom und online unter [www.braunschweigerdom.de](https://braunschweigerdom.de).
 
 <small>
 

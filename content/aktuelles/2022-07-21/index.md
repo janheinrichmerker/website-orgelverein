@@ -16,8 +16,8 @@ Der Gesamtaufwand würde sich um ca. 40.000&nbsp;€ verringern!
 
 Die Zeiten blieben schwierig, aber wir wurden weiterhin mit [Spenden]({{< relref "/spenden/index.md" >}}) 
 aus der Braunschweiger Bürgerschaft unterstützt. 
-Zudem konnten wir uns, nach der [Stiftung Braunschweiger Land](http://stiftungbraunschweigerland.de/), 
-auch über die Unterstützung durch die [Hans und Helga Eckensberger Stiftung](https://www.eckensberger-stiftung.de/) freuen.
+Zudem konnten wir uns, nach der [Stiftung Braunschweiger Land](https://stiftungbraunschweigerland.de/), 
+auch über die Unterstützung durch die [Hans und Helga Eckensberger Stiftung](https://eckensberger-stiftung.de/) freuen.
 
 Ende 2021 fuhren der damalige Domkantor Münden und Mitarbeiter der Orgelbaufirma Späth 
 nach Großbritannien, um sich den gewünschten Klang der dortigen Orgeln anzuhören und zu überlegen, 

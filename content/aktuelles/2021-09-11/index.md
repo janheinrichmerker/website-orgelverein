@@ -47,7 +47,7 @@ in Cardiff werden. Die Einweihung der Orgel ist für die Adventszeit 2023 geplan
 
 <small>
 
-Artikel der [Kirchenzeitung vor Ort](https://www.evangelische-zeitung.de/) von Ralf-Thomas Lindner am 19.09.2021.
+Artikel der [Kirchenzeitung vor Ort](https://evangelische-zeitung.de/) von Ralf-Thomas Lindner am 19.09.2021.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

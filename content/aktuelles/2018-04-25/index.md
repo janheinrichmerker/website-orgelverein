@@ -27,7 +27,7 @@ Maßstab: etwa&nbsp;1:50. Die TU&nbsp;Braunschweig hat damit Hilfestellung gelei
 „Wir haben ein bisschen tüfteln müssen; da steckt einiges Gehirnschmalz
 drin“, erklärt Professor Klaus Thiele vom Institut für Stahlbau lachend.
 
-{{< figure name="header" attribution="Peter Sierigk" attribution-link="https://www.petersierigk.de/" >}}
+{{< figure name="header" attribution="Peter Sierigk" attribution-link="https://petersierigk.de/" >}}
 
 Üblicherweise nutzt das Institut für Stahlbau seinen 3-D-Drucker, um
 Modelle für den Windkanal zu plotten: Brücken oder Hochhäuser. Der

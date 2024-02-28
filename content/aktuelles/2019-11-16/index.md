@@ -21,7 +21,7 @@ Schon lange soll der Dom eine zusätzliche Orgel bekommen. Jetzt nimmt das
 Projekt immer mehr Gestalt an&nbsp;– und der neu gegründete Orgelbauverein
 bittet um weitere Spenden.
 
-{{< figure name="header" attribution="Peter Sierigk" attribution-link="https://www.petersierigk.de/" >}}
+{{< figure name="header" attribution="Peter Sierigk" attribution-link="https://petersierigk.de/" >}}
 
 „Viele werden sich fragen, warum wir im Dom überhaupt eine weitere Orgel
 brauchen“, sagt Christine Eichner vom Vereinsvorstand. „Der Grund ist ganz

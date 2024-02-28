@@ -13,7 +13,7 @@ resources:
     caption: |
       Z.Zt. werden die Kinder mit einem Provisorium (oben Mitte) begleitet.
     attribution: Peter Sierigk
-    attributionLink: https://www.petersierigk.de/
+    attributionLink: https://petersierigk.de/
 - name: quempas
   src: quempas.jpg
   title: Impression vom Quempassingen
