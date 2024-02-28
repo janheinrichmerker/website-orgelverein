@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-glightbox@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/glightbox/-/glightbox-2.0.4.tgz#46ad81beacd5ba3d230815a2d5d0fae50f12f75a"
-  integrity sha512-cL62Dw5AT0zZbda/Ig/gh6T38F+IgCJwGojeMbw5OYX9LK0z70iBlcBfg0jgKX+x61jLiCHBGBbIRe3pXuvGaQ==
+glightbox@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/glightbox/-/glightbox-3.2.0.tgz#d460e6ffc70ba2dcc2842e0b31d51a2e03266ba2"
+  integrity sha512-iit1xYixqL4YVL+I2YJLfMeyJwvLi6FE6kY3qNKeZHEJgRIz80QU8Rm7YCyw1wOTgXvmNDnXGVhHOHRCwnDltQ==
 
 normalize.css@^8.0.1:
   version "8.0.1"
