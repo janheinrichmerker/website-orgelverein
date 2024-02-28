@@ -27,13 +27,19 @@ jobs:
         run: yarn
       - name: 🏗 Build
         run: hugo
+      - name: 🧰 Cache link checker requests
+        uses: actions/cache@v3
+        with:
+          path: .lycheecache
+          key: cache-link-checker-${{ github.sha }}
+          restore-keys: cache-link-checker-
       - name: 🔄 Check links
         id: linkCheck
-        uses: peter-evans/link-checker@v1.2.1
+        uses: lycheeverse/lychee-action@v1
         with:
-          args: -v -d public/ -r public/
+          args: --require-https --verbose --base public/ --cache --max-cache-age 1d
       - name: 📤 Upload link check report
-        uses: actions/upload-artifact@v1.0.0
+        uses: actions/upload-artifact@v4
         if: steps.linkCheck.outputs.exit_code != 0
         with:
           name: Link check report
