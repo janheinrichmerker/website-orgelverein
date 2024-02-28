@@ -29,7 +29,7 @@ jobs:
         run: hugo
       - name: 🔄 Check links
         id: linkCheck
-        uses: peter-evans/link-checker@v1.2.1
+        uses: peter-evans/link-checker@v1.2.2
         with:
           args: -v -d public/ -r public/
       - name: 📤 Upload link check report
