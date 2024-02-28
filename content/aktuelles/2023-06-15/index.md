@@ -33,7 +33,7 @@ Das Instrument wurde nach englischem Vorbild gebaut. In einer letzten Besprechun
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article238688315.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 15.06.2020.
+[Online-Artikel](https://braunschweiger-zeitung.de/article238688315/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 15.06.2020.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

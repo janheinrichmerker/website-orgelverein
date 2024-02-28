@@ -110,7 +110,7 @@ Mittelalter gab es hier bis zu sechs!“
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article227989031.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Martin Jasper am 23.12.2019.
+[Online-Artikel](https://braunschweiger-zeitung.de/article227989031/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Martin Jasper am 23.12.2019.
 Außerdem erschienen als „Raumklang aus silbernen Engelsflügeln“ in der Print-Ausgabe vom 24.12.2019.
 Mit freundlicher Genehmigung des Verlages.
 

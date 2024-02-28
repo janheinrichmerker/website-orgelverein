@@ -14,7 +14,7 @@ resources:
 ---
 
 Der erste Bauabschnitt der neuen Orgel wurde 
-bei der [Orgelbaufirma Späth](https://freiburgerorgelbau.de/orgelwerke/aktuelle-projekte/braunschweig-2/) in Auftrag gegeben.
+bei der [Orgelbaufirma Späth](https://freiburgerorgelbau.de/orgelwerke/neubauten/braunschweig-2/) in Auftrag gegeben.
 
 ## Die Spielanlage
 

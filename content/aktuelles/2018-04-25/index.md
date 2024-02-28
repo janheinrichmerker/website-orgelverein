@@ -70,7 +70,7 @@ bauen.
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article214117029.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 25.04.2018.
+[Online-Artikel](https://braunschweiger-zeitung.de/article214117029/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 25.04.2018.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

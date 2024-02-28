@@ -83,7 +83,7 @@ kann das nur ahnen.“ Die neue Orgel wäre insgesamt ein Gewinn für alle Art d
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article231074692.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 04.12.2020.
+[Online-Artikel](https://braunschweiger-zeitung.de/article231074692/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 04.12.2020.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

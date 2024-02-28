@@ -77,7 +77,7 @@ Dom&nbsp;– Eintritt erhoben wird.
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article213440291.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 14.02.2018.
+[Online-Artikel](https://braunschweiger-zeitung.de/article213440291/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 14.02.2018.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

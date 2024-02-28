@@ -78,7 +78,7 @@ in Planung.
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article228271101.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Karsten Mentasti am 28.01.2020.
+[Online-Artikel](https://braunschweiger-zeitung.de/article228271101/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Karsten Mentasti am 28.01.2020.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

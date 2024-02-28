@@ -35,7 +35,7 @@ Tickets für alle Veranstaltungen gibt es direkt im Dom und online unter [www.br
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article236379805.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 08.09.2022.
+[Online-Artikel](https://braunschweiger-zeitung.de/article236379805/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 08.09.2022.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

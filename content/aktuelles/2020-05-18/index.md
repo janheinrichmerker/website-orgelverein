@@ -19,7 +19,7 @@ Bei aller Verunsicherung gibt es aber auch immer wieder Momente der Zuversicht, 
 die erste Zwillingsorgel wird wie geplant 2023&nbsp;kommen!
 Ihre Erstellung wird durch die Auswirkungen der Pandemie nicht verzögert!
 Unter dem folgenden Link können Sie sich direkt bei der Orgelbaufirma Späth über den Stand „unserer“ Orgel informieren:
-[freiburgerorgelbau.de/orgelwerke/aktuelle-projekte/](https://freiburgerorgelbau.de/orgelwerke/aktuelle-projekte/braunschweig-2/)
+[freiburgerorgelbau.de/orgelwerke/aktuelle-projekte/](https://freiburgerorgelbau.de/orgelwerke/neubauten/braunschweig-2/)
 
 Wenn sie dann erklingt, wird das „Corona-Jahr“ Geschichte sein und wir hoffentlich gesund,
 und werden mit Abstand auf die Geschehnisse dieser Zeit zurückblicken können.

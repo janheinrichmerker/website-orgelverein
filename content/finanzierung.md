@@ -9,7 +9,7 @@ menu:
 Sehr geehrte Spenderinnen und Spender, es ist geschafft!
 Dank ihrer großzügigen Unterstützung wurden von der
 Braunschweigischen Landeskirche mittlerweile beide Türme der neuen Orgel
-bei der [Orgelbaufirma Späth](https://freiburgerorgelbau.de/orgelwerke/aktuelle-projekte/braunschweig-2/) in Auftrag gegeben!
+bei der [Orgelbaufirma Späth](https://freiburgerorgelbau.de/orgelwerke/neubauten/braunschweig-2/) in Auftrag gegeben!
 
 Im Rahmen einer Studienreise nach England im Winter&nbsp;2022 stellte sich heraus,
 dass man aus technischen Gründen die Pfeifen und Windladen anders bauen und aufteilen muss,

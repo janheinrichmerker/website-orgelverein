@@ -73,7 +73,7 @@ Klingen gebracht wird“, so Münden.
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article233266533.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 08.09.2021.
+[Online-Artikel](https://braunschweiger-zeitung.de/article233266533/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 08.09.2021.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

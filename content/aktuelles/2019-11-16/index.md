@@ -106,7 +106,7 @@ und Jugendlichen, Woche für Woche geleistet wird.“
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article227663753.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Cornelia Steiner am 16.11.2019.
+[Online-Artikel](https://braunschweiger-zeitung.de/article227663753/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Cornelia Steiner am 16.11.2019.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

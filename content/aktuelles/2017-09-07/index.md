@@ -82,7 +82,7 @@ wüssten, wie die neue Chororgel denn nun aussehen soll.“
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article211846797.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 07.09.2017.
+[Online-Artikel](https://braunschweiger-zeitung.de/article211846797/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Ann Claire Richter am 07.09.2017.
 Mit freundlicher Genehmigung des Verlages.
 
 Herunterladen: {{< download name="article" >}}

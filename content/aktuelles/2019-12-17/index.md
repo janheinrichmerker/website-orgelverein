@@ -141,7 +141,7 @@ siebenarmigen Leuchter wie zwei Flügelspitzen einrahmen.
 
 <small>
 
-[Online-Artikel](https://braunschweiger-zeitung.de/article227942223.html) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Karsten Mentasti am 17.12.2019.
+[Online-Artikel](https://braunschweiger-zeitung.de/article227942223/) der [Braunschweiger Zeitung](https://braunschweiger-zeitung.de) von Karsten Mentasti am 17.12.2019.
 Außerdem erschienen als „Nur eine hochwertige Lösung kommt in Frage“ in der Print-Ausgabe vom 18.12.2019.
 Mit freundlicher Genehmigung des Verlages.
 
