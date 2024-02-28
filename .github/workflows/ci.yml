@@ -6,38 +6,37 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "📥 Check-out"
+      - name: 📥 Check-out
         uses: actions/checkout@v2
         with:
           lfs: true
           submodules: true
-      - name: "🧰 Install Hugo"
+      - name: 🧰 Install Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 0.66.0
+          hugo-version: '0.123.4'
           extended: true
-      - name: "🧰 Install Node"
+      - name: 🧰 Install Node
         uses: actions/setup-node@v1
         with:
-          node-version: 8.16.x
-      - name: "🧰 Install Yarn"
-        run: npm install -g yarn
-      - name: "🧰 Install asset dependencies"
-        run: |
-          cd assets
-          yarn install
-      - name: "🏗 Build"
+          node-version: '20.10'
+          cache: yarn
+          cache-dependency-path: assets/yarn.lock
+      - name: 🧰 Install asset dependencies
+        working-directory: assets/
+        run: yarn
+      - name: 🏗 Build
         run: hugo
-      - name: "🔄 Check links"
+      - name: 🔄 Check links
         id: linkCheck
         uses: peter-evans/link-checker@v1.2.1
         with:
           args: -v -d public/ -r public/
-      - name: "📤 Upload link check report"
+      - name: 📤 Upload link check report
         uses: actions/upload-artifact@v1.0.0
         if: steps.linkCheck.outputs.exit_code != 0
         with:
-          name: "Link check report"
-          path: ./link-checker/out.md
-      - name: "✅ Require link check pass"
+          name: Link check report
+          path: link-checker/out.md
+      - name: ✅ Require link check pass
         run: exit ${{ steps.linkCheck.outputs.exit_code }}
