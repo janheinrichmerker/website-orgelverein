@@ -25,24 +25,24 @@ jobs:
       - name: 🧰 Install asset dependencies
         working-directory: assets/
         run: yarn
+      - name: ♻️ Cache Hugo modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/hugo_cache
+          key: ${{ runner.os }}-hugo-modules-${{ hashFiles('**/go.sum') }}
+          restore-keys: ${{ runner.os }}-hugo-modules-
       - name: 🏗 Build
         run: hugo
-      - name: 🧰 Cache link checker requests
+      - name: ♻️ Cache link checker requests
         uses: actions/cache@v3
         with:
           path: .lycheecache
-          key: cache-link-checker-${{ github.sha }}
-          restore-keys: cache-link-checker-
+          key: link-checker-${{ github.sha }}
+          restore-keys: link-checker-
       - name: 🔄 Check links
         id: linkCheck
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --require-https --verbose --base public/ --cache --max-cache-age 1d
-      - name: 📤 Upload link check report
-        uses: actions/upload-artifact@v4
-        if: steps.linkCheck.outputs.exit_code != 0
-        with:
-          name: Link check report
-          path: link-checker/out.md
-      - name: ✅ Require link check pass
-        run: exit ${{ steps.linkCheck.outputs.exit_code }}
+          lycheeVersion: '0.13.0'
+          args: --require-https --verbose --no-progress --base public/ --cache --max-cache-age 1d public/
+          fail: true
