@@ -41,5 +41,5 @@
         </defs>
     </svg>
     <figcaption>{{ .name }}</figcaption>
-    <figcaption class="overlay">{{ lang.NumFmt 0 .value "- , ." }}&nbsp;/&nbsp;{{ lang.NumFmt 0 .max "- , ." }}&nbsp;€</figcaption>
+    <figcaption class="overlay">{{ lang.FormatNumberCustom 0 .value "- , ." }}&nbsp;/&nbsp;{{ lang.FormatNumberCustom 0 .max "- , ." }}&nbsp;€</figcaption>
 </figure>

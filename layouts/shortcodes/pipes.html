@@ -30,7 +30,7 @@
         <td style="text-align:right;">
             {{- if ge .donated .max -}}
             <del>{{- end -}}
-                {{ lang.NumFmt 0 .price "- , ." }}&nbsp;€
+                {{ lang.FormatNumberCustom 0 .price "- , ." }}&nbsp;€
                 {{- if ge .donated .max -}}
             </del>
             {{- end -}}

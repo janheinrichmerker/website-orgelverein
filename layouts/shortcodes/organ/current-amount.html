@@ -3,7 +3,7 @@
 {{- range $.Site.Data.organs -}}
 {{- if eq .name $name -}}
 {{- $found = true -}}
-{{ lang.NumFmt 0 .value "- , ." }} €
+{{ lang.FormatNumberCustom 0 .value "- , ." }} €
 {{- end -}}
 {{- end -}}
 {{- if not $found -}}

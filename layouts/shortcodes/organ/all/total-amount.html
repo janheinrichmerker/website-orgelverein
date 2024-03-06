@@ -3,7 +3,7 @@
 {{- range $.Site.Data.organs -}}
 {{- $sum = add $sum .max -}}
 {{- end -}}
-{{ lang.NumFmt 0 $sum "- , ." }} €
+{{ lang.FormatNumberCustom 0 $sum "- , ." }} €
 {{- else -}}
 0 €
 {{- end -}}
