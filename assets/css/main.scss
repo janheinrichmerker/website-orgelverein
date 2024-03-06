@@ -9,17 +9,19 @@ $color-accent-active: darken($color-accent, 15%);
 $color-accent-inverse: change_color($color-accent, $lightness: 90%);
 $color-accent-secondary-inverse: desaturate(darken($color-accent-inverse, 10%), 10%);
 $color-accent-active-inverse: lighten($color-accent-inverse, 15%);
-$divider: fade_out($color, 0.80);
+$divider: fade_out($color, 0.8);
 $image-border-color: fade_out($background-inverse, 0.6);
-$image-border-color-opaque: lighten($background-inverse, 0.5);
-$notification-background: rgba(#fdd536, 0.3);
-$notification-border-color: mix(#fdd536, $image-border-color, 0.4);
+$image-border-color-opaque: lighten($background-inverse, 50%);
+$notification-background: rgba(#fdd536, 30%);
+$notification-border-color: mix(#fdd536, $image-border-color, 40%);
 $timeline-width: 4em;
 $timeline-line-width: 3px;
 $timeline-line-color: mix($color-accent, $background, 60%);
 $timeline-bullet-size: 1em;
 $font-family-serif: "Merriweather", "Georgia", "Times New Roman", serif;
 $font-family-sans: "Merriweather Sans", "Arial", sans-serif;
+
+@use "sass:math";
 
 @import "../node_modules/normalize.css/normalize";
 @import "lightbox";
@@ -658,17 +660,17 @@ body {
                             position: absolute;
                             bottom: 0;
                             top: 0;
-                            left: calc(#{$timeline-width / 2} - #{$timeline-line-width / 2});
+                            left: calc(#{math.div($timeline-width, 2)} - #{math.div($timeline-line-width, 2)});
                             width: $timeline-line-width;
                         }
 
                         &:first-of-type:before {
-                            top: $timeline-width / 2;
+                            top: math.div($timeline-width, 2);
                         }
 
                         &:last-of-type:before {
                             bottom: auto;
-                            height: $timeline-width / 2;
+                            height: math.div($timeline-width, 2);
                         }
 
                         &:last-of-type {
@@ -683,8 +685,8 @@ body {
                             content: "";
                             position: absolute;
                             border-radius: 50%;
-                            left: calc(#{$timeline-width / 2} - #{$timeline-bullet-size / 2});
-                            top: calc(#{$timeline-width / 2} - #{$timeline-bullet-size / 2});
+                            left: calc(#{math.div($timeline-width, 2)} - #{math.div($timeline-bullet-size, 2)});
+                            top: calc(#{math.div($timeline-width, 2)} - #{math.div($timeline-bullet-size, 2)});
                             width: $timeline-bullet-size;
                             height: $timeline-bullet-size;
                             background: $timeline-line-color;
@@ -829,7 +831,7 @@ body {
                     }
 
                     > small {
-                        margin-bottom: 1em * (1 / 0.75);
+                        margin-bottom: 1em * math.div(1, 0.75);
                         font-size: 75%;
                     }
 

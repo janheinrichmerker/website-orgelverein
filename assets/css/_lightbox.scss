@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $color: #fff !default;
 $color-inverse: $background;
 $background: #000 !default;
@@ -11,7 +13,7 @@ $loader-size: 1vmin;
 $loader-color: $color;
 
 $button-size: 7.5vmin;
-$button-margin: $button-size / 2;
+$button-margin: math.div($button-size, 2);
 
 $viewport-width-medium: 800px;
 $viewport-height-small: 450px;
@@ -42,7 +44,7 @@ $viewport-height-small: 450px;
         height: $loader-size;
         width: $loader-size;
         animation: lightbox-loader .8s infinite linear;
-        border: ($loader-size / 12) solid $loader-color;
+        border: math.div($loader-size, 12) solid $loader-color;
         border-right-color: transparent;
         border-radius: 50%;
         z-index: $z-index-top-3;
@@ -171,7 +173,7 @@ $viewport-height-small: 450px;
                 position: absolute;
                 top: $button-margin;
                 right: $button-margin;
-                padding: $button-size / 4;
+                padding: math.div($button-size, 4);
 
                 &:hover {
                     opacity: 1;
