@@ -1,2 +1,0 @@
-- id: audioUnsupported
-  translation: "Your browser doesn't support embedded audio, but don't worry, you can <a href=\"{{ .RelPermalink }}\">download it</a> and listen to it with your favorite audio player."
