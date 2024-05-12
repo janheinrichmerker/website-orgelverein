@@ -17,9 +17,6 @@ sitemap:
   priority: 0.5
   filename: "sitemap.xml"
 
-theme:
-- hugo-audio
-- hugo-video
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
@@ -28,3 +25,8 @@ markup:
 
 params:
   env: production
+
+module:
+  imports:
+    - path: github.com/heinrichreimer/hugo-audio
+    - path: github.com/martignoni/hugo-video
