@@ -1,8 +1,12 @@
-- name: Nordorgel
-  value: 443000
-  max: 550000
-  lastUpdated: 2024-02-28
-- name: Südorgel
-  value: 500000
-  max: 500000
-  lastUpdated: 2021-09-22
+# - name: Nordorgel
+#   value: 443000
+#   max: 550000
+#   lastUpdated: 2024-02-28
+# - name: Südorgel
+#   value: 500000
+#   max: 500000
+#   lastUpdated: 2021-09-22
+- name: Spendenbarometer für ausstehende Register
+  value: 11000
+  max: 180000
+  lastUpdated: 2024-04-30
