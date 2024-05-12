@@ -10,7 +10,7 @@ resources:
   title: Draufsicht
   params:
     caption: |
-      Draufsicht des Orgelentwurfes.
+      Draufsicht des Orgelentwurfes mit der Nordorgel und der Südorgel, die den siebenarmigen Leuchter einrahmen.
 ---
 
 ## Der Entwurf des Orgelarchitekten
