@@ -3,9 +3,9 @@
   color:
     name: "Grün"
     html: "#00dd00"
-  donated: 23
+  donated: 26
   max: 54
-  lastUpdated: 2023-01-29
+  lastUpdated: 2024-05-05
 - group: 2
   price: 5000
   color:
