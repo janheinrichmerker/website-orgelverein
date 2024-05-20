@@ -722,6 +722,7 @@ body {
                 &#progress {
                     display: flex;
                     flex-wrap: wrap;
+                    justify-content: center;
 
                     > h3, > small {
                         flex: 0 0 100%;
