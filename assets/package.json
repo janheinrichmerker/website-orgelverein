@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Orgelverein am Braunschweiger Dom e.V.",
   "main": "index.js",
-  "author": "Jan Heinrich Reimer <heinrich@heinrichreimer.com>",
+  "author": "Jan Heinrich Merker <heinrich@merker.ai>",
   "license": "UNLICENSE",
   "private": true,
   "dependencies": {

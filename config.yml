@@ -28,5 +28,5 @@ params:
 
 module:
   imports:
-    - path: github.com/heinrichreimer/hugo-audio
+    - path: github.com/janheinrichmerker/hugo-audio
     - path: github.com/martignoni/hugo-video
