@@ -14,13 +14,13 @@ jobs:
       - name: 🧰 Install Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.123.4'
+          hugo-version: '0.138.0'
       - name: 🧰 Install dart-sass-embedded
         run: sudo snap install dart-sass
       - name: 🧰 Install Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20.10'
+          node-version: '20.17'
           cache: yarn
           cache-dependency-path: assets/yarn.lock
       - name: 🧰 Install asset dependencies
