@@ -1,9 +1,10 @@
+@use "sass:color";
 @use "sass:math";
 
+$background: #000 !default;
 $color: #fff !default;
 $color-inverse: $background;
-$background: #000 !default;
-$overlay: fade_out($background, 0.25) !default;
+$overlay: color.adjust($background, $alpha: -0.25) !default;
 
 $z-index-top-1: 999999;
 $z-index-top-2: 999998;
@@ -75,7 +76,7 @@ $viewport-height-small: 450px;
         }
 
         @media (min-width: $viewport-width-medium) {
-            background: fade_out($overlay, .10);
+            background: color.adjust($overlay, $alpha: -.10);
         }
 
         @media (max-height: $viewport-height-small) {
@@ -113,12 +114,12 @@ $viewport-height-small: 450px;
             display: block;
             background-position: 0 0;
             border: none;
-            background-color: fade_out($color, 0.4);
+            background-color: color.adjust($color, $alpha: -0.4);
             border-radius: 0.25em;
             transition: opacity 0.2s ease-in;
 
             &:hover {
-                background-color: fade_out($color, 0.2);
+                background-color: color.adjust($color, $alpha: -0.2);
             }
 
             &:focus:not(.focused):not(.disabled) {
@@ -468,7 +469,7 @@ $viewport-height-small: 450px;
             }
 
             .gslide-desc {
-                color: fade_out($color, 0.2);
+                color: color.adjust($color, $alpha: -0.2);
 
                 a {
                     color: $color;

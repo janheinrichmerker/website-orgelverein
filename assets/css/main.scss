@@ -1,30 +1,34 @@
+@use "sass:math";
+@use "sass:color";
+
 $background: #f2f2f2;
 $background-secondary: #e7e8e9;
 $background-inverse: #582b23;
-$color: change_color($background-inverse, $lightness: 10%);
+$color: color.change($background-inverse, $lightness: 10%);
 $color-inverse: $background;
 $color-accent: #ad4d25;
-$color-accent-secondary: desaturate(lighten($color-accent, 20%), 10%);
-$color-accent-active: darken($color-accent, 15%);
-$color-accent-inverse: change_color($color-accent, $lightness: 90%);
-$color-accent-secondary-inverse: desaturate(darken($color-accent-inverse, 10%), 10%);
-$color-accent-active-inverse: lighten($color-accent-inverse, 15%);
-$divider: fade_out($color, 0.8);
-$image-border-color: fade_out($background-inverse, 0.6);
-$image-border-color-opaque: lighten($background-inverse, 50%);
+$color-accent-secondary: color.adjust(color.adjust($color-accent, $lightness: 20%), $saturation: -10%);
+$color-accent-active: color.adjust($color-accent, $lightness: -15%);
+$color-accent-inverse: color.change($color-accent, $lightness: 90%);
+$color-accent-secondary-inverse: color.adjust(color.adjust($color-accent-inverse, $lightness: -10%), $saturation: -10%);
+$color-accent-active-inverse: color.adjust($color-accent-inverse, $lightness: 15%);
+$divider: color.adjust($color, $alpha: -0.8);
+$image-border-color: color.adjust($background-inverse, $alpha: -0.6);
+$image-border-color-opaque: color.adjust($background-inverse, $lightness: 50%);
 $notification-background: rgba(#fdd536, 30%);
-$notification-border-color: mix(#fdd536, $image-border-color, 40%);
+$notification-border-color: color.mix(#fdd536, $image-border-color, 40%);
 $timeline-width: 4em;
 $timeline-line-width: 3px;
-$timeline-line-color: mix($color-accent, $background, 60%);
+$timeline-line-color: color.mix($color-accent, $background, 60%);
 $timeline-bullet-size: 1em;
 $font-family-serif: "Merriweather", "Georgia", "Times New Roman", serif;
 $font-family-sans: "Merriweather Sans", "Arial", sans-serif;
 
-@use "sass:math";
-
-@import "../node_modules/normalize.css/normalize";
-@import "lightbox";
+@use "../node_modules/normalize.css/normalize";
+@use "lightbox" with (
+  $color: $color,
+  $background: $background
+);
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Merriweather:400,400i,700,700i&display=swap');
 
@@ -39,8 +43,8 @@ $font-family-sans: "Merriweather Sans", "Arial", sans-serif;
 }
 
 body {
-    background: $background;
-    color: $color;
+    background: lightbox.$background;
+    color: lightbox.$color;
     width: 100%;
     margin: 0;
     font-family: $font-family-serif;
@@ -107,7 +111,7 @@ body {
     figcaption {
         font-style: italic;
         font-size: smaller;
-        color: fade_out($color, 0.15);
+        color: color.adjust(lightbox.$color, $alpha: -0.15);
     }
 
     > header {
@@ -116,7 +120,7 @@ body {
         align-items: center;
         width: 100%;
         background: $background-inverse;
-        color: $color-inverse;
+        color: lightbox.$color-inverse;
         font-family: $font-family-sans;
         box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
         0 2px 2px 0 rgba(0, 0, 0, 0.14),
@@ -135,13 +139,13 @@ body {
         margin-bottom: 10px;
 
         @media print {
-            color: $color;
+            color: lightbox.$color;
             box-shadow: none;
-            border-bottom: 1px solid fade_out($color, 0.7);
+            border-bottom: 1px solid color.adjust(lightbox.$color, $alpha: -0.7);
         }
 
         a {
-            color: $color-inverse;
+            color: lightbox.$color-inverse;
             text-decoration: none;
         }
 
@@ -179,7 +183,7 @@ body {
                     }
 
                     * {
-                        fill: $color-inverse;
+                        fill: lightbox.$color-inverse;
                     }
                 }
             }
@@ -252,7 +256,7 @@ body {
                     }
 
                     &.active > a:after {
-                        background: fade_out($color-inverse, 0.5);
+                        background: color.adjust(lightbox.$color-inverse, $alpha: -0.5);
                     }
 
                     > a {
@@ -275,14 +279,14 @@ body {
                             transition: background 0.2s ease-in, bottom 0.2s ease-in;
                             transform: translateX(-50%);
                             bottom: 0;
-                            background: fade_out($color-inverse, 0.8);
+                            background: color.adjust(lightbox.$color-inverse, $alpha: -0.8);
                         }
 
                         &:hover {
 
                             &:after {
                                 bottom: 2px;
-                                background: $color-inverse;
+                                background: lightbox.$color-inverse;
                             }
                         }
 
@@ -602,7 +606,7 @@ body {
 
                             > a {
                                 text-decoration: none;
-                                color: $color;
+                                color: lightbox.$color;
                             }
                         }
 
@@ -750,16 +754,16 @@ body {
                             min-height: 250px;
 
                             .background {
-                                fill: darken($background-secondary, 10%);
+                                fill: color.adjust($background-secondary, $lightness: -10%);
                             }
 
                             .background-active {
-                                fill: saturate(lighten($color-accent-secondary, 5%), 20%);
+                                fill: color.adjust(color.adjust($color-accent-secondary, $lightness: 5%), $saturation: 20%);
                             }
                         }
 
                         > figcaption {
-                            color: $color;
+                            color: lightbox.$color;
 
                             &.overlay {
                                 font-size: 75%;
@@ -795,7 +799,7 @@ body {
                             font-weight: bold;
                             font-size: 1em;
                             text-decoration: none;
-                            color: $color;
+                            color: lightbox.$color;
                         }
                     }
                 }
@@ -816,7 +820,7 @@ body {
         flex-wrap: wrap;
         width: 100%;
         background: $background-inverse;
-        color: $color-inverse;
+        color: lightbox.$color-inverse;
         box-shadow: 0 -3px 1px -2px rgba(0, 0, 0, 0.2),
         0 -2px 2px 0 rgba(0, 0, 0, 0.14),
         0 -1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -827,9 +831,9 @@ body {
         page-break-inside: avoid;
 
         @media print {
-            color: $color;
+            color: lightbox.$color;
             box-shadow: none;
-            border-top: 1px solid fade_out($color, 0.7);
+            border-top: 1px solid color.adjust(lightbox.$color, $alpha: -0.7);
             text-align: center;
         }
 
