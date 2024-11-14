@@ -72,6 +72,8 @@ Orgelbauverein am Braunschweiger Dom \
 IBAN: _DE12 2699 1066 8769 1500 00_, bei der Volksbank eG Braunschweig Wolfsburg \
 IBAN: _DE75 2505 0000 0201 3989 71_, bei der Braunschweigischen Landessparkasse (NORD/LB)
 
+PayPal: einfach [hier](https://www.paypal.com/donate/?hosted_button_id=8F4M8DYFAEE6Y) online spenden
+
 Verwenden Sie hierzu unser [Spendenformular][{{< relref "/formular/index.md" >}}].
 
 ## Fehlende Register

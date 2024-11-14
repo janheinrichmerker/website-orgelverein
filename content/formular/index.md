@@ -18,6 +18,10 @@ resources:
 - name: spende-prospektpfeifen
   src: spende-prospektpfeifen.pdf
   title: "Spendenformular Prospektpfeifen"
+- src: qr-code-paypal.png
+  title: Spenden per PayPal
+  params:
+    caption: Spenden per PayPal
 ---
 
 ### Wie können Sie spenden?
@@ -55,3 +59,10 @@ resources:
     <dt>SWIFT/BIC</dt>
     <dd>NOLADE2HXXX</dd>
 </dl>
+
+### PayPal
+
+Sie können nun auch ganz einfach online spenden per PayPal: \
+<https://www.paypal.com/donate/?hosted_button_id=8F4M8DYFAEE6Y>
+
+{{< figure name="qr-code-paypal.png" >}}
