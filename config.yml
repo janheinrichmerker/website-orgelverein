@@ -6,7 +6,8 @@ metaDataFormat: "yaml"
 defaultContentLanguage: "de"
 summaryLength: 40
 enableRobotsTXT: true
-paginate: 5
+pagination:
+  pagerSize: 5
 paginatePath: "" # Append page number to list path directly.
 disableKinds:
 - taxonomy
