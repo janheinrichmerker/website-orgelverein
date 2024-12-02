@@ -40,6 +40,10 @@ resources:
   title: "Orgelprospekt"
   params:
     caption: "Orgelprospekt (Draufsicht)"
+- src: qr-code-paypal.png
+  title: Spenden per PayPal
+  params:
+    caption: Spenden per PayPal
 ---
 
 ## Spender werden
@@ -62,7 +66,7 @@ Vielleicht möchten Sie auch zur Erinnerung an einen lieben Menschen eine Pfeife
 
 ### Wie können Sie spenden?
 
-Wir benötigen Ihre Kontaktdaten zur korrekten Übermittlung der Spendenquittung. Bitte helfen Sie uns, indem Sie das [Spendenformular][{{< relref "/formular/index.md" >}}] verwenden oder Name und vollständige Adresse bei der Überweisung angeben.
+Wir benötigen Ihre Kontaktdaten zur korrekten Übermittlung der Spendenquittung. Bitte helfen Sie uns, indem Sie das [Spendenformular]({{< relref "/formular/index.md" >}}) verwenden oder Name und vollständige Adresse bei der Überweisung angeben.
 
 Wenn Sie eine Pfeifenpatenschaft übernehmen wollen, wählen Sie im Formular eine oder mehrere Pfeifen aus.
 
@@ -74,7 +78,9 @@ IBAN: _DE75 2505 0000 0201 3989 71_, bei der Braunschweigischen Landessparkasse 
 
 PayPal: einfach [hier](https://www.paypal.com/donate/?hosted_button_id=8F4M8DYFAEE6Y) online spenden
 
-Verwenden Sie hierzu unser [Spendenformular][{{< relref "/formular/index.md" >}}].
+Verwenden Sie hierzu unser [Spendenformular]({{< relref "/formular/index.md" >}}).
+
+{{< figure name="qr-code-paypal.png" >}}
 
 ## Fehlende Register
 
