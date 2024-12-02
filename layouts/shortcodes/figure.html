@@ -4,16 +4,16 @@
 {{- $attributionLink := .Get "attribution-link" -}}
 {{- if $name -}}
 {{- $resource := $.Page.Resources.GetMatch $name -}}
+{{- with $resource -}}
 {{- if not $caption -}}
-{{- $caption = $resource.Params.caption -}}
+{{- $caption = .Params.caption -}}
 {{- end -}}
 {{- if not $attribution -}}
-{{- $attribution = $resource.Params.attribution -}}
+{{- $attribution = .Params.attribution -}}
 {{- end -}}
 {{- if not $attributionLink -}}
-{{- $attributionLink = $resource.Params.attributionLink -}}
+{{- $attributionLink = .Params.attributionLink -}}
 {{- end -}}
-{{- with $resource -}}
 {{- if eq .ResourceType "image" -}}
 <figure>
     <a href="{{ .RelPermalink }}">
