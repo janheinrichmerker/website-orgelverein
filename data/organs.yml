@@ -7,6 +7,6 @@
 #   max: 500000
 #   lastUpdated: 2021-09-22
 - name: Spendenbarometer für ausstehende Register
-  value: 28000
+  value: 43000
   max: 180000
-  lastUpdated: 2024-08-01
+  lastUpdated: 2024-12-20
