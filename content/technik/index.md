@@ -19,9 +19,6 @@ resources:
     caption: |
       Vom frei fahrbaren Spieltisch aus läßt sich auch die Schuke Orgel spielen.
     attribution: Lothar Zickermann
-- name: konsole
-  src: konsole.png
-  title: Spielanlage
 - name: schweller
   src: schweller.png
   title: Schweller
@@ -32,7 +29,6 @@ resources:
 Die Orgelanlage besteht aus 32&nbsp;Registern mit 2.222&nbsp;klingenden Pfeifen, verteilt auf zwei eigenständige, optisch gleiche Orgeln und eine Pedalsektion im nördlichen Querhaus der Vierung. Modernste digitale Bus-Technik vereint die neuen Orgeln mit der bestehenden Orgel zu einer domweiten Orgelanlage. Das abwechselnde Spiel der Instrumente ermöglicht nie dagewesene akustische Kombinationen im Dom. Die Pfeifen werden durch modernste Magnet- und Ventiltechnik angesprochen, die auch in der Industrie langlebige Anwendung findet. Gespielt werden die Orgeln von einem frei fahrbaren Spieltisch aus auf der Ebene vor dem Leuchter.
 
 {{< figure name="spieltisch" >}}
-{{< figure name="konsole" >}}
 
 ## Technische Daten im Überblick
 
@@ -60,7 +56,7 @@ Die Orgelanlage besteht aus 32&nbsp;Registern mit 2.222&nbsp;klingenden Pfeifen,
 {{< figure name="schweller" >}}
 
 Eine Besonderheit der Orgeln ist ihre universelle Einsatzfähigkeit im Raum. 
-Jede Orgel erhält Schwelltüren (Jalousien) zu drei Seiten, 
+Jede Orgel besitzt Schwelltüren (Jalousien) zu drei Seiten, 
 die jeweils den gewünschten Teil des Domes mit Klang füllen 
 und die anderen Bereiche nicht ansprechen.
 

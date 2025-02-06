@@ -56,19 +56,16 @@ Vielleicht möchten Sie auch zur Erinnerung an einen lieben Menschen eine Pfeife
 
 - _Alle_ Spender erhalten eine Zuwendungsbestätigung (Spendenbescheinigung).
 - Für Spenden ab&nbsp;200 € erhalten Sie zusätzlich eine _Urkunde_, von der ein Duplikat mit Ihrem Namen in der Orgel verwahrt wird.
-- Für Spenden ab&nbsp;2.000 € bekommen Sie auf Wunsch auch eine öffentliche _namentliche Würdigung_, die kommenden Generationen erhalten bleibt.
+- Für Spenden ab&nbsp;2.000 € wird Ihr Name auf Wunsch auf der _Spendertafel_ am südlichen Orgelgehäuse ergänzt, die kommenden Generationen erhalten bleibt.
 
 ### Warum sollten Sie spenden?
 
-- Zu allererst: Sie haben mitgeholfen, die neue Orgel Wirklichkeit werden zu lassen! Sie geben dem Gesang Hunderter Kinder, Jugendlicher und Erwachsener eine angemessene Begleitung. Sie tragen auf diese Weise zur Bereicherung des kulturellen Lebens in Braunschweig für kommende Generationen bei.
-- Sie erhalten eine persönliche Spendenurkunde (ab&nbsp;200 € Spendenhöhe). Wenn Sie eine Patenschaft verschenken möchten, können wir die Urkunde gerne auf den Namen des Beschenkten ausstellen.
-- Wenn Sie als Großspender eine der großen Pfeifen in der Fassade der Orgel spenden möchten, werden Sie auf Wunsch zudem namentlich gewürdigt, sodass die kommenden Generationen im Dom von Ihrem Engagement erfahren.
+- Mit Ihrer Spende geben Sie dem Gesang Hunderter Kinder, Jugendlicher und Erwachsener eine angemessene Begleitung. Sie tragen auf diese Weise zur Bereicherung des kulturellen Lebens in Braunschweig für kommende Generationen bei.
+- Wenn Sie eine Patenschaft verschenken möchten, können wir die Urkunde gerne auf den Namen des Beschenkten ausstellen.
 
 ### Wie können Sie spenden?
 
 Wir benötigen Ihre Kontaktdaten zur korrekten Übermittlung der Spendenquittung. Bitte helfen Sie uns, indem Sie das [Spendenformular]({{< relref "/formular/index.md" >}}) verwenden oder Name und vollständige Adresse bei der Überweisung angeben.
-
-Wenn Sie eine Pfeifenpatenschaft übernehmen wollen, wählen Sie im Formular eine oder mehrere Pfeifen aus.
 
 Überweisen Sie den Geldbetrag auf eines unserer Konten:
 
@@ -78,24 +75,20 @@ IBAN: _DE75 2505 0000 0201 3989 71_, bei der Braunschweigischen Landessparkasse 
 
 PayPal: einfach [hier](https://www.paypal.com/donate/?hosted_button_id=8F4M8DYFAEE6Y) online spenden
 
-Verwenden Sie hierzu unser [Spendenformular]({{< relref "/formular/index.md" >}}).
-
 {{< figure name="qr-code-paypal.png" >}}
+<div class="clearfix"></div>
 
-## Fehlende Register
+Wenn Sie eine Pfeifenpatenschaft übernehmen wollen, wählen Sie im [Spendenformular]({{< relref "/formular/index.md" >}}) eine oder mehrere Pfeifen aus.
+
+## Komplettes Orgelregister spenden
+
+Ein Orgelregister ist eine Gruppe von Orgelpfeifen, die alle denselben Klang erzeugen. Jede Pfeife in einem Register hat eine andere Tonhöhe, aber sie klingen alle ähnlich. Wenn der Organist ein Register zieht, aktiviert er diese Gruppe von Pfeifen, um einen bestimmten Klang zu erzeugen. Es gibt viele verschiedene Register, die verschiedene Klänge erzeugen, wie zum Beispiel Trompeten- oder Flötenklänge. Durch das Kombinieren verschiedener Register kann der Organist eine Vielzahl von Klängen und Klangfarben erzeugen. Das macht die Orgel zu einem sehr vielseitigen Instrument und wird daher auch die "Königin der Instrumente" genannt.
 
 Von den insgesamt 32 Registern fehlen derzeit noch
 
 | Register | Kosten | Beschreibung |
 |:--|--:|:--|
-| Cornopean | 17.000 € | Der Name Cornopean&nbsp;8' kommt aus dem Lateinischen: cornus „Horn“. Es soll eine Nachahmung des Orchesterhorns sein. Ein Zungen-Register erfunden und von Henry Willis, der es perfektionierte und im Stile einer leisen und harmonischen Trompete in seinen Orgeln verbaute. |
-| Double Trumpet | 20.000 € | Ein Trompetenregister eine Oktave tiefer als normal gebaut, 16'&nbsp;oder&nbsp;32'. Normalerweise mit dem Kontrafagott identisch oder etwas stärker. Es klingt frei, brillant und feurig. |
-| Clarionet | 17.350 € | Ein Zungenregister&nbsp;8', nach Bauart eines Dulzians, zylindrisch, es erinnert eine Klarinette. |
-| Contra Hautboy | 23.350 € | Ein Oboenregister eine Oktave tiefer, 16'&nbsp;oder&nbsp;32'. Es handelt sich um ein ungewöhnliches Register, da der Bass der Oboe normalerweise vom Fagott übernommen wird. |
-| Clairon | 17.000 € | Ein Zungenregister&nbsp;4', nach Bauart der Trompete mit konischen, nach oben erweiterten Bechern mit dem Klang einer hohen Trompete. |
-| Tuba mirabilis | 38.350 € | Sie ist von außergewöhnlicher Kraft, die zu den mächtigsten aller Register zählt. Der Name Tuba Mirabilis wurde offenbar erstmals&nbsp;1840 im Rathaus von Birmingham in England verwendet. |
-| Open Diapason&nbsp;16' | 31.100 € | Pedalregister, das das „Rückgrat“ des Klangs der Orgel darstellt. Englische Bezeichnung für ein Prinzipal; kommt in offener Bauweise (open diapason) aus Metall. |
-| Pedal Gehäuse, Windanlage und Windlade | 13.350 € | |
+| Open Diapason&nbsp;16' | {{< organ/missing-amount "Spendenbarometer für ausstehende Register" >}} | Pedalregister, das das „Rückgrat“ des Klangs der Orgel darstellt. Englische Bezeichnung für ein Prinzipal; kommt in offener Bauweise (open diapason) aus Metall. |
 
 
 ## Innenpfeifen, das Herz der Orgel
@@ -143,14 +136,3 @@ Von den insgesamt 32 Registern fehlen derzeit noch
         </tr>
     </tbody>
 </table>
-
-## Prospektpfeifen, das Angesicht der Orgel
-
-Großspender der Prospektpfeifen erhalten auf Wunsch eine öffentliche namentliche Würdigung, die kommenden Generationen im Dom erhalten bleibt.
-
-{{< pipes >}}
-
-{{< figure name="prospekt-frontansicht" >}}
-{{< figure name="prospekt-draufsicht" >}}
-
-[formular]: {{< relref "/formular.md" >}}

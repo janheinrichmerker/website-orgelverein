@@ -21,6 +21,6 @@ Aus einer intensiven Diskussion unter Beteiligung der Landesdenkmalpflege und de
 
 Die beiden Orgelteile sind in ihrer Anmutung den Flügeln eines Engels nachempfunden. Der Siebenarmige Leuchter wird somit in der Vorstellung des Orgelarchitekten gleichsam von diesen zwei Engelsflügeln eingerahmt.
 
-Die planerische Finesse, dass beide Orgeln auch für sich allein und im Zusammenspiel mit der Hauptorgel gespielt werden können, eröffnet zusätzliche Nutzungsoptionen je nach den musikalischen oder liturgischen Erfordernissen.
+Die planerische Finesse, dass beide Orgeln auch im Zusammenspiel mit der Hauptorgel gespielt werden können, eröffnet zusätzliche Nutzungsoptionen je nach den musikalischen oder liturgischen Erfordernissen.
 
 In dieser Planung schwingt auch die Erfahrung der jahrhundertealten englischen Chortradition mit. Englische Kathedralen haben weltweit die besten Instrumente zur Chorbegleitung hervorgebracht. Daher werden die Pfeifen nach dem Vorbild englischer Originale gebaut.

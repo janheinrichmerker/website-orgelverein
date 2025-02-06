@@ -30,13 +30,13 @@ resources:
 
 <div class="notification">
 
-[Hier]({{< relref "/aktuelles/2023-12-06/index.md" >}}) können Sie ab sofort das Begleitbuch „Die neue Chororgel im Braunschweiger Dom“ erwerben.
+[Hier]({{< relref "/aktuelles/2023-12-06/index.md" >}}) können Sie das Begleitbuch „Die neue Chororgel im Braunschweiger Dom“ erwerben.
 
 </div>
 
 <div class="notification">
 
-Auf [YouTube](https://youtube.com/watch?v=xAGsy1zXzzM) können Sie sich nun die Aufzeichnung der feierlichen Orgelweihe ansehen.
+Auf [YouTube](https://youtube.com/watch?v=xAGsy1zXzzM) können Sie sich die Aufzeichnung der feierlichen Orgelweihe ansehen.
 
 </div>
 
@@ -48,7 +48,7 @@ Der [Braunschweiger Dom](https://braunschweigerdom.de/) ist eine lebendige Gemei
 
 Seit dem 1.&nbsp;Dezember&nbsp;2023 ist im Braunschweiger Dom die neue Chororgel im Einsatz. Sie begleitet seitdem die zahlreichen Chorensembles des Domes bei Konzerten und Gottesdiensten. Dabei fasziniert sie die Besucherinnen und Besucher des Gotteshauses immer von neuem mit ihrer Klangfarbe und ihrer Ästhetik.  
 
-Zahlreiche [Spenden]({{< relref "/spenden.md" >}}) Braunschweiger musikbegeisterter Privatpersonen und Unternehmen haben den Bau und die Errichtung der Chororgel im Braunschweiger Dom zum Weihetermin am 1.&nbsp;Dezember des vergangenen Jahres möglich gemacht. Auf [YouTube](https://youtube.com/watch?v=xAGsy1zXzzM) können Sie sich die [Aufzeichnung der feierlichen Orgelweihe](https://youtube.com/watch?v=xAGsy1zXzzM) ansehen. [Hier]({{< relref "/aktuelles/2023-12-06/index.md" >}}) können Sie das Begleitbuch „Die neue Chororgel im Braunschweiger Dom“ erwerben. 
+Zahlreiche [Spenden]({{< relref "/spenden.md" >}}) Braunschweiger musikbegeisterter Privatpersonen und Unternehmen haben den Bau und die Errichtung der Chororgel im Braunschweiger Dom zum Weihetermin am 1.&nbsp;Dezember&nbsp;2023 möglich gemacht. Auf [YouTube](https://youtube.com/watch?v=xAGsy1zXzzM) können Sie sich die [Aufzeichnung der feierlichen Orgelweihe](https://youtube.com/watch?v=xAGsy1zXzzM) ansehen. [Hier]({{< relref "/aktuelles/2023-12-06/index.md" >}}) können Sie das Begleitbuch „Die neue Chororgel im Braunschweiger Dom“ erwerben. 
 
 Mit der neuen Chororgel hat die Musikvermittlung im Dom eine neue qualitative Dimension gewonnen, von der viele kommende Generationen von Gottesdienstbesuchern, vor allem aber auch von Sängerinnen und Sängern der Braunschweiger Domsingschule – einer der größten Einrichtungen dieser Art in Deutschland – während ihrer musikalischen Ausbildung Gewinn ziehen werden.  
 
