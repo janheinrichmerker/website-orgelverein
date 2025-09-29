@@ -44,6 +44,6 @@ jobs:
         id: linkCheck
         uses: lycheeverse/lychee-action@v2.0.2
         with:
-          lycheeVersion: '0.13.0'
           args: --require-https --verbose --no-progress --base public/ --cache --max-cache-age 1d --exclude paypal.com public/
           fail: true
+          jobSummary: true
