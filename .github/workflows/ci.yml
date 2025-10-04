@@ -42,7 +42,7 @@ jobs:
           restore-keys: link-checker-
       - name: 🔄 Check links
         id: linkCheck
-        uses: lycheeverse/lychee-action@v2.0.2
+        uses: lycheeverse/lychee-action@v2.6.1
         with:
           args: --require-https --verbose --no-progress --root-dir "$(pwd)/public" --cache --max-cache-age 1d --exclude paypal.com public/
           fail: true
